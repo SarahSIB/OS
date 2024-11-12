@@ -513,4 +513,7 @@ root@iwantoeat:/home/sarah# ls
 dawa  Desktop  Documents  Downloads  meow.tar  Music  Pictures  Public  Templates  Videos
 root@iwantoeat:/home/sarah#
 
+root@iwantoeat:/home# cd /home/sarah/dawa
+root@iwantoeat:/home/sarah/dawa# find -size 15M
+./folder31/19/file39
 
