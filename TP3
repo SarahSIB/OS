@@ -1,0 +1,502 @@
+#I - 1
+
+sarah@iwantoeat:/etc$ cat passwd | grep sarah
+sarah:x:1000:1000:Sarah SIBLINI,,,:/home/sarah:/bin/bash
+
+sarah@iwantoeat:/etc$ cat passwd | grep -E "sarah|root"
+root:x:0:0:root:/root:/bin/bash
+sarah:x:1000:1000:Sarah SIBLINI,,,:/home/sarah:/bin/bash
+
+sarah@iwantoeat:/etc$ cat group
+root:x:0:
+daemon:x:1:
+bin:x:2:
+sys:x:3:
+adm:x:4:
+tty:x:5:
+disk:x:6:
+lp:x:7:
+mail:x:8:
+news:x:9:
+uucp:x:10:
+man:x:12:
+proxy:x:13:
+kmem:x:15:
+dialout:x:20:
+fax:x:21:
+voice:x:22:
+cdrom:x:24:sarah
+floppy:x:25:sarah
+tape:x:26:
+sudo:x:27:
+audio:x:29:sarah
+dip:x:30:sarah
+www-data:x:33:
+backup:x:34:
+operator:x:37:
+list:x:38:
+irc:x:39:
+src:x:40:
+shadow:x:42:
+utmp:x:43:
+video:x:44:sarah
+sasl:x:45:
+plugdev:x:46:sarah
+staff:x:50:
+games:x:60:
+users:x:100:sarah
+nogroup:x:65534:
+systemd-journal:x:999:
+systemd-network:x:998:
+crontab:x:101:
+input:x:102:
+sgx:x:103:
+kvm:x:104:
+render:x:105:
+netdev:x:106:sarah
+tss:x:107:
+systemd-timesync:x:997:
+messagebus:x:108:
+_ssh:x:109:
+ssl-cert:x:110:
+avahi-autoipd:x:111:
+bluetooth:x:112:sarah
+avahi:x:113:
+lpadmin:x:114:sarah
+pipewire:x:115:
+fwupd-refresh:x:116:
+scanner:x:117:saned,sarah
+saned:x:118:
+geoclue:x:119:
+polkitd:x:996:
+rtkit:x:120:
+colord:x:121:
+Debian-gdm:x:122:
+sarah:x:1000:
+gnome-initial-setup:x:995:
+marmotte:x:1001:
+
+sarah@iwantoeat:/etc$ cat passwd | cut -d":" -f1,6 | grep -E "sarah|root"
+root:/root
+sarah:/home/sarah
+
+#I - 2
+
+sarah@iwantoeat:/etc$ su - root
+Password:
+root@iwantoeat:~# sudo cat /etc/shadow | grep root | cut -d":" -f1,2
+root:$y$j9T$lrAxytqgU7ORhgJD/68Pp1$1HBIlb9m.igtHQAfmWBRm0vXpyETVMoNf.z.YhLbH28
+
+#I - 3
+
+# A
+sarah@iwantoeat:/etc$ su - root
+Password:
+root@iwantoeat:~# usermod -a -G sudo sarah
+
+# B
+root@iwantoeat:/etc# su - sarah
+sarah@iwantoeat:~$ cd /etc/
+sarah@iwantoeat:/etc$ sudo -u root groupadd stronk_admins
+
+sarah@iwantoeat:/etc$ sudo useradd -m imbob
+sarah@iwantoeat:/etc$ sudo usermod -aG imbob,stronk_admins imbob
+sarah@iwantoeat:/etc$ sudo passwd imbob
+New password:
+Retype new password:
+passwd: password updated successfully
+
+sarah@iwantoeat:/etc$ cat /etc/passwd |grep imbob
+imbob:x:1002:1003::/home/imbob:/bin/sh
+
+sarah@iwantoeat:/etc$ sudo cat /etc/shadow |grep imbob
+imbob:$y$j9T$HKUgIYFIVGg3hfvXACQW5.$wuSZ0hXen6Mnn509lwrHtsArT0upnK7XN8vI8A3V.B6:20040:0:99999:7:::
+
+sarah@iwantoeat:/etc$ sudo cat /etc/group | grep "stronk_admins"
+stronk_admins:x:1002:imbob
+
+sarah@iwantoeat:/etc$ sudo useradd -m imnotbobsorry
+sarah@iwantoeat:/etc$ sudo passwd imnotbobsorry
+New password:
+Retype new password:
+passwd: password updated successfully
+
+
+sarah@iwantoeat:/etc$ sudo usermod -aG imnotbobsorry
+
+%stronk_admins ALL=(ALL) NOPASSWD: /usr/bin/apt, /usr/bin/apt-get, /usr/bin/apt-cache, /usr/sbin/apt
+imbob ALL=(ALL) ALL
+
+sarah@iwantoeat:~$ sudo mkdir /home/goodguy
+cat /etc/passwd | grep imbob
+imbob:x:1002:1003::/home/goodguy:/bin/sh
+
+sarah@iwantoeat:~$ sudo usermod -d /home/badguy imnotbobsorry
+sarah@iwantoeat:~$ cat /etc/passwd | grep imnotbobsorry
+imnotbobsorry:x:1003:1004::/home/badguy:/bin/sh
+
+sarah@iwantoeat:~$ ls -ld /home/goodguy
+drwxr-xr-x 2 root root 4096 Nov 13 11:01 /home/goodguy
+sarah@iwantoeat:~$ grep imbob /etc/passwd
+imbob:x:1002:1003::/home/goodguy:/bin/sh
+sarah@iwantoeat:~$ sudo chown imbob:imbob /home/goodguy
+[sudo] p: not found sarah:
+sarah@iwantoeat:~$ sudo su - imbob
+$
+
+sarah@iwantoeat:/home$ sudo chown -R imbob:imbob /home/goodguy
+sarah@iwantoeat:/home$ ls -la
+total 28
+drwxr-xr-x  7 root          root          4096 Nov 13 11:01 .
+drwxr-xr-x 19 root          root          4096 Nov 12 12:20 ..
+drwxr-xr-x  2 imbob         imbob         4096 Nov 13 11:01 goodguy
+drwxr-xr-x  2 imbob         imbob         4096 Nov 13 10:59 imbob
+drwxr-xr-x  2 imnotbobsorry imnotbobsorry 4096 Nov 13 10:19 imnotbobsorry
+drwxr-xr-x  2 marmotte      marmotte      4096 Nov 13 10:13 marmotte
+drwx------ 14 sarah         sarah         4096 Nov 13 10:08 sarah
+
+sarah@iwantoeat:/home$ sudo chown imnotbobsorry /home/badguy/
+sarah@iwantoeat:/home$ ls -la
+total 28
+drwxr-xr-x  7 root          root          4096 Nov 13 11:01 .
+drwxr-xr-x 19 root          root          4096 Nov 12 12:20 ..
+drwxr-xr-x  2 imbob         imbob         4096 Nov 13 11:01 goodguy
+drwxr-xr-x  2 imbob         imbob         4096 Nov 13 10:59 imbob
+drwxr-xr-x  2 imnotbobsorry imnotbobsorry 4096 Nov 13 10:19 imnotbobsorry
+drwxr-xr-x  2 marmotte      marmotte      4096 Nov 13 10:13 marmotte
+drwx------ 14 sarah         sarah         4096 Nov 13 10:08 sarah
+
+
+
+su imbob
+Password:
+$
+$ ^[[A^: not found
+$ ^C
+$ whoami
+imbob
+$ cd
+$ pwd
+/home/goodguy
+$ sudo echo meow
+[sudo] password for imbob:
+meow
+
+# II 
+# A
+$ ps -ef| grep bash
+sarah       2197    2196  0 10:32 pts/0    00:00:00 -bash
+imnotbo+    3019    2497 25 18:00 pts/0    00:00:00 grep bash
+$
+
+sarah@iwantoeat:~$ ps -ef |grep ^sarah
+sarah       1096       1  0 Nov14 ?        00:00:00 /lib/systemd/systemd --user
+sarah       1098    1096  0 Nov14 ?        00:00:00 (sd-pam)
+sarah       1116    1096  0 Nov14 ?        00:00:00 /usr/bin/pipewire
+sarah       1124    1096  0 Nov14 ?        00:00:00 /usr/bin/wireplumber
+sarah       1125    1096  0 Nov14 ?        00:00:00 /usr/bin/pipewire-pulse
+sarah       1126    1096  0 Nov14 ?        00:00:00 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+sarah       1127    1096  0 Nov14 ?        00:00:00 /usr/bin/gnome-keyring-daemon --foreground --components=pkcs11,secrets --control-directory=/run/user/1000/keyring
+sarah       1134    1096  0 Nov14 ?        00:00:00 /usr/libexec/gvfsd
+sarah       1147    1084  0 Nov14 tty2     00:00:00 /usr/libexec/gdm-wayland-session /usr/bin/gnome-session
+sarah       1152    1147  0 Nov14 tty2     00:00:00 /usr/libexec/gnome-session-binary
+sarah       1157    1096  0 Nov14 ?        00:00:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f
+sarah       1237    1096  0 Nov14 ?        00:00:00 /usr/libexec/gcr-ssh-agent /run/user/1000/gcr
+sarah       1238    1096  0 Nov14 ?        00:00:00 /usr/libexec/gnome-session-ctl --monitor
+sarah       1239    1096  0 Nov14 ?        00:00:00 ssh-agent -D -a /run/user/1000/openssh_agent
+sarah       1245    1096  0 Nov14 ?        00:00:00 /usr/libexec/gnome-session-binary --systemd-service --session=gnome
+sarah       1260    1245  0 Nov14 ?        00:00:00 /usr/libexec/at-spi-bus-launcher --launch-immediately
+sarah       1262    1096  0 Nov14 ?        00:00:30 /usr/bin/gnome-shell
+sarah       1269    1260  0 Nov14 ?        00:00:00 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 11 --address=unix:path=/run/user/1000/at-spi/bus
+sarah       1318    1096  0 Nov14 ?        00:00:00 /usr/libexec/xdg-permission-store
+sarah       1320    1096  0 Nov14 ?        00:00:00 /usr/libexec/gnome-shell-calendar-server
+sarah       1329    1096  0 Nov14 ?        00:00:00 /usr/libexec/evolution-source-registry
+sarah       1341    1096  0 Nov14 ?        00:00:00 /usr/libexec/goa-daemon
+sarah       1344    1096  0 Nov14 ?        00:00:00 /usr/libexec/evolution-calendar-factory
+sarah       1356    1096  0 Nov14 ?        00:00:00 /usr/libexec/evolution-addressbook-factory
+sarah       1359    1096  0 Nov14 ?        00:00:00 /usr/libexec/gvfs-udisks2-volume-monitor
+sarah       1369    1096  0 Nov14 ?        00:00:00 /usr/libexec/goa-identity-service
+sarah       1387    1096  0 Nov14 ?        00:00:00 /usr/libexec/gvfs-mtp-volume-monitor
+sarah       1391    1096  0 Nov14 ?        00:00:01 /usr/libexec/gvfs-afc-volume-monitor
+sarah       1396    1096  0 Nov14 ?        00:00:00 /usr/libexec/gvfs-gphoto2-volume-monitor
+sarah       1400    1096  0 Nov14 ?        00:00:00 /usr/libexec/gvfs-goa-volume-monitor
+sarah       1406    1096  0 Nov14 ?        00:00:00 /usr/libexec/at-spi2-registryd --use-gnome-session
+sarah       1407    1096  0 Nov14 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+sarah       1419    1096  0 Nov14 ?        00:00:00 sh -c /usr/bin/ibus-daemon --panel disable $([ "$XDG_SESSION_TYPE" = "x11" ] && echo "--xim")
+sarah       1420    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-a11y-settings
+sarah       1421    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-color
+sarah       1422    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-datetime
+sarah       1423    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-housekeeping
+sarah       1424    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-keyboard
+sarah       1426    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-media-keys
+sarah       1427    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-power
+sarah       1428    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-print-notifications
+sarah       1433    1245  0 Nov14 ?        00:00:16 /usr/bin/gnome-software --gapplication-service
+sarah       1434    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-rfkill
+sarah       1435    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-screensaver-proxy
+sarah       1437    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-sharing
+sarah       1438    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-smartcard
+sarah       1439    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-sound
+sarah       1443    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-usb-protection
+sarah       1444    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-wacom
+sarah       1452    1245  0 Nov14 ?        00:00:00 /usr/libexec/gsd-disk-utility-notify
+sarah       1454    1245  0 Nov14 ?        00:00:00 /usr/libexec/evolution-data-server/evolution-alarm-notify
+sarah       1479    1419  0 Nov14 ?        00:00:00 /usr/bin/ibus-daemon --panel disable
+sarah       1555    1096  0 Nov14 ?        00:00:00 /usr/libexec/gsd-printer
+sarah       1564    1096  0 Nov14 ?        00:00:00 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.ScreenSaver
+sarah       1586    1479  0 Nov14 ?        00:00:00 /usr/libexec/ibus-dconf
+sarah       1587    1479  0 Nov14 ?        00:00:01 /usr/libexec/ibus-extension-gtk3
+sarah       1589    1096  0 Nov14 ?        00:00:00 /usr/libexec/ibus-portal
+sarah       1624    1479  0 Nov14 ?        00:00:00 /usr/libexec/ibus-engine-simple
+sarah       1631    1096  0 Nov14 ?        00:00:00 /usr/libexec/xdg-desktop-portal
+sarah       1644    1096  0 Nov14 ?        00:00:00 /usr/libexec/xdg-document-portal
+sarah       1671    1096  0 Nov14 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gnome
+sarah       1692    1096  0 Nov14 ?        00:00:01 /usr/libexec/tracker-miner-fs-3
+sarah       1702    1096  0 Nov14 ?        00:00:00 /usr/libexec/xdg-desktop-portal-gtk
+sarah       2196    2176  0 Nov14 ?        00:00:03 sshd: sarah@pts/0
+sarah       2197    2196  0 Nov14 pts/0    00:00:00 -bash
+sarah       2211    1096  0 Nov14 ?        00:00:00 /usr/libexec/gvfsd-metadata
+sarah       3393    1096  0 13:09 ?        00:00:00 /usr/libexec/dconf-service
+sarah       4636    4607  0 13:13 ?        00:00:00 sshd: sarah@pts/1
+sarah       4637    4636  0 13:13 pts/1    00:00:00 -bash
+sarah       4666    4637 99 13:13 pts/1    00:00:00 ps -ef
+sarah       4667    4637  0 13:13 pts/1    00:00:00 grep ^sarah
+
+
+sarah@iwantoeat:~$ ps -ef --sort=-%mem | head -n 6
+UID          PID    PPID  C STIME TTY          TIME CMD
+Debian-+    2636    2617  0 01:01 tty1     00:00:05 /usr/bin/gnome-shell
+sarah       1262    1096  0 Nov14 ?        00:00:30 /usr/bin/gnome-shell
+sarah       1433    1245  0 Nov14 ?        00:00:16 /usr/bin/gnome-software --gapplication-service
+Debian-+    2974       1  0 01:01 tty1     00:00:00 /usr/libexec/ibus-x11 --kill-daemon
+Debian-+    2707    2636  0 01:01 tty1     00:00:00 /usr/bin/Xwayland :1024 -rootless -noreset -accessx -core -auth /run/user/113/.mutter-Xwaylandauth.UR16W2 -listenfd 4 -listenfd 5 -displayfd 6 -initfd 7
+
+sarah@iwantoeat:~$ ps -C sshd |head -n 2
+    PID TTY          TIME CMD
+    640 ?        00:00:00 sshd
+
+sarah@iwantoeat:~$ ps --sort=pid -eo pid | head -n 2
+    PID
+      1
+      sarah@iwantoeat:~$ echo $$
+4637
+sarah@iwantoeat:~$ ps -ef | grep $$ | head -n 1
+sarah       4637    4636  0 13:13 pts/1    00:00:00 -bash
+sarah@iwantoeat:~$ ps -p$(ps -p $$ -o ppid=) -o comm=su
+su
+sshd
+sarah@iwantoeat:~$ sleep 9999 &
+[1] 4697
+sarah@iwantoeat:~$ ps -ef | grep sleep | head -n 1
+sarah       4697    4637  0 13:17 pts/1    00:00:00 sleep 9999
+sarah@iwantoeat:~$ echo $$
+4637
+sarah@iwantoeat:~$ ps -ef | grep sleep
+sarah       4697    4637  0 13:17 pts/1    00:00:00 sleep 9999
+sarah       4703    4637  0 13:17 pts/1    00:00:00 grep sleep
+
+
+#III -
+
+sarah@iwantoeat:~$ systemctl status
+● iwantoeat
+    State: degraded
+    Units: 294 loaded (incl. loaded aliases)
+     Jobs: 0 queued
+   Failed: 1 units
+    Since: Wed 2024-11-13 10:31:17 CET; 2 days ago
+  systemd: 252.31-1~deb12u1
+   CGroup: /
+           ├─init.scope
+           │ └─1 /sbin/init
+           ├─system.slice
+           │ ├─ModemManager.service
+           │ │ └─482 /usr/sbin/ModemManager
+           │ ├─NetworkManager.service
+           │ │ └─462 /usr/sbin/NetworkManager --no-daemon
+           │ ├─accounts-daemon.service
+           │ │ └─449 /usr/libexec/accounts-daemon
+           │ ├─avahi-daemon.service
+           │ │ ├─451 "avahi-daemon: running [iwantoeat.local]"
+           │ │ └─461 "avahi-daemon: chroot helper"
+           │ ├─colord.service
+           │ │ └─842 /usr/libexec/colord
+           │ ├─cron.service
+           │ │ └─452 /usr/sbin/cron -f
+           │ ├─cups-browsed.service
+           │ │ └─642 /usr/sbin/cups-browsed
+           │ ├─cups.service
+           │ │ └─632 /usr/sbin/cupsd -l
+           │ ├─dbus.service
+           │ │ └─453 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-act>
+           │ ├─gdm.service
+           │ │ └─644 /usr/sbin/gdm3
+           │ ├─geoclue.service
+           │ │ └─829 /usr/libexec/geoclue
+           │ ├─low-memory-monitor.service
+           │ │ └─455 /usr/libexec/low-memory-monitor
+           │ ├─polkit.service
+           │ │ └─456 /usr/lib/polkit-1/polkitd --no-debug
+           │ ├─power-profiles-daemon.service
+           │ │ └─457 /usr/libexec/power-profiles-daemon
+           │ ├─rtkit-daemon.service
+           │ │ └─682 /usr/libexec/rtkit-daemon
+           │ ├─ssh.service
+           │ │ └─640 "sshd: /usr/sbin/sshd -D [listener] 0 of 10-100 startups"
+           │ ├─switcheroo-control.service
+           │ │ └─458 /usr/libexec/switcheroo-control
+           │ ├─systemd-journald.service
+           │ │ └─3102 /lib/systemd/systemd-journald
+           │ ├─systemd-logind.service
+           │ │ └─2528 /lib/systemd/systemd-logind
+           │ ├─systemd-timesyncd.service
+           │ │ └─2524 /lib/systemd/systemd-timesyncd
+           │ ├─systemd-udevd.service
+           │ │ └─udev
+           │ │   └─2521 /lib/systemd/systemd-udevd
+           │ ├─udisks2.service
+           │ │ └─460 /usr/libexec/udisks2/udisksd
+           │ ├─upower.service
+           │ │ └─804 /usr/libexec/upowerd
+           │ └─wpa_supplicant.service
+           │   └─463 /sbin/wpa_supplicant -u -s -O "DIR=/run/wpa_supplicant GROUP=netdev"
+           └─user.slice
+             ├─user-1000.slice
+             │ ├─session-2.scope
+             │ │ ├─1084 "gdm-session-worker [pam/gdm-password]"
+lines 1-65
+
+sudo systemctl list-units -t service -a
+[sudo] password for sarah:
+  UNIT                                  LOAD      A>
+  accounts-daemon.service               loaded    a>
+  alsa-restore.service                  loaded    i>
+  alsa-state.service                    loaded    i>
+  anacron.service                       loaded    i>
+  apparmor.service                      loaded    a>
+  apt-daily-upgrade.service             loaded    i>
+  apt-daily.service                     loaded    i>
+● auditd.service                        not-found i>
+● auto-cpufreq.service                  not-found i>
+  avahi-daemon.service                  loaded    a>
+  colord.service                        loaded    a>
+● connman.service                       not-found i>
+● console-screen.service                not-found i>
+  console-setup.service                 loaded    a>
+  cron.service                          loaded    a>
+  cups-browsed.service                  loaded    a>
+  cups.service                          loaded    a>
+  dbus.service                          loaded    a>
+  dpkg-db-backup.service                loaded    i>
+  e2scrub_all.service                   loaded    i>
+  e2scrub_reap.service                  loaded    i>
+  emergency.service                     loaded    i>
+  fstrim.service                        loaded    i>
+  fwupd-refresh.service                 loaded    i>
+  gdm.service                           loaded    a>
+  geoclue.service                       loaded    a>
+  getty-static.service                  loaded    i>
+  getty@tty1.service                    loaded    i>
+  ifupdown-pre.service                  loaded    a>
+  initrd-cleanup.service                loaded    i>
+  initrd-parse-etc.
+
+   systemctl status ssh
+● ssh.service - OpenBSD Secure Shell server
+     Loaded: loaded (/lib/systemd/system/ssh.servic>
+     Active: active (running) since Wed 2024-11-13 >
+       Docs: man:sshd(8)
+             man:sshd_config(5)
+    Process: 633 ExecStartPre=/usr/sbin/sshd -t (co>
+   Main PID: 640 (sshd)
+      Tasks: 1 (limit: 1446)
+     Memory: 11.4M
+        CPU: 760ms
+     CGroup: /system.slice/ssh.service
+             └─640 "sshd: /usr/sbin/sshd -D [listen>
+
+Warning: some journal files were not opened due to >
+
+sarah@iwantoeat:~$ sudo ss -lnpt | grep 'sshd'
+[sudo] password for sarah:
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=640,fd=3))
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=640,fd=4))
+
+
+sarah@iwantoeat:~$ journalctl |grep "sshd"
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Nov 12 12:00:05 iwantoeat sshd[3274]: Received disconnect from 192.168.206.1 port 51166:11: disconnected by user
+Nov 12 12:00:05 iwantoeat sshd[3274]: Disconnected from user sarah 192.168.206.1 port 51166
+Nov 13 10:13:54 iwantoeat sshd[3414]: Received disconnect from 192.168.206.2 port 45310:11: disconnected by user
+Nov 13 10:13:55 iwantoeat sshd[3414]: Disconnected from user sarah 192.168.206.2 port 45310
+Nov 13 10:29:04 iwantoeat sshd[33825]: Received disconnect from 192.168.206.1 port 52584:11: disconnected by user
+Nov 13 10:29:04 iwantoeat sshd[33825]: Disconnected from user sarah 192.168.206.1 port 52584
+Nov 15 13:23:42 iwantoeat sshd[4816]: Received disconnect from 192.168.206.1 port 52913:11: disconnected by user
+Nov 15 13:23:42 iwantoeat sshd[4816]: Disconnected from user sarah 192.168.206.1 port 52913
+Nov 15 13:23:43 iwantoeat sshd[4750]: Received disconnect from 192.168.206.1 port 52905:11: disconnected by user
+Nov 15 13:23:43 iwantoeat sshd[4750]: Disconnected from user sarah 192.168.206.1 port 52905
+
+sarah@iwantoeat:~$ ls -l /etc/ssh/sshd_config
+-rw-r--r-- 1 root root 3223 Jun 22 21:38 /etc/ssh/sshd_config
+
+sarah@iwantoeat:~$ sudo ss -lnpt | grep 'sshd'
+[sudo] password for sarah:
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=640,fd=3))
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=640,fd=4))
+sarah@iwantoeat:~$ journalctl |grep "sshd"
+Hint: You are currently not seeing messages from other users and the system.
+      Users in groups 'adm', 'systemd-journal' can see all messages.
+      Pass -q to turn off this notice.
+Nov 12 12:00:05 iwantoeat sshd[3274]: Received disconnect from 192.168.206.1 port 51166:11: disconnected by user
+Nov 12 12:00:05 iwantoeat sshd[3274]: Disconnected from user sarah 192.168.206.1 port 51166
+Nov 13 10:13:54 iwantoeat sshd[3414]: Received disconnect from 192.168.206.2 port 45310:11: disconnected by user
+Nov 13 10:13:55 iwantoeat sshd[3414]: Disconnected from user sarah 192.168.206.2 port 45310
+Nov 13 10:29:04 iwantoeat sshd[33825]: Received disconnect from 192.168.206.1 port 52584:11: disconnected by user
+Nov 13 10:29:04 iwantoeat sshd[33825]: Disconnected from user sarah 192.168.206.1 port 52584
+Nov 15 13:23:42 iwantoeat sshd[4816]: Received disconnect from 192.168.206.1 port 52913:11: disconnected by user
+Nov 15 13:23:42 iwantoeat sshd[4816]: Disconnected from user sarah 192.168.206.1 port 52913
+Nov 15 13:23:43 iwantoeat sshd[4750]: Received disconnect from 192.168.206.1 port 52905:11: disconnected by user
+Nov 15 13:23:43 iwantoeat sshd[4750]: Disconnected from user sarah 192.168.206.1 port 52905
+sarah@iwantoeat:~$ ls -l /etc/ssh/sshd_config
+-rw-r--r-- 1 root root 3223 Jun 22 21:38 /etc/ssh/sshd_config
+sarah@iwantoeat:~$ echo $RANDOM
+9344
+sarah@iwantoeat:~$ sudo nano /etc/ssh/ssh_config
+sarah@iwantoeat:~$ cat /etc/ssh/sshd_config | grep "Port"
+#Port 22
+#GatewayPorts no
+sarah@iwantoeat:~$ systemctl restart sshd
+==== AUTHENTICATING FOR org.freedesktop.systemd1.manage-units ====
+Authentication is required to restart 'ssh.service'.
+Multiple identities can be used for authentication:
+ 1.  Sarah SIBLINI,,, (sarah)
+ 2.  imbob
+Choose identity to authenticate as (1-2): sudo ss -lnpt | grep sshd
+Invalid response `sudo ss -lnpt | grep sshd'.
+==== AUTHENTICATION CANCELED ====
+Failed to restart sshd.service: Access denied
+See system logs and 'systemctl status sshd.service' for details.
+sarah@iwantoeat:~$ sudo ss -lnpt | grep sshd
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=640,fd=3))
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=640,fd=4))
+
+sarah@iwantoeat:~$ sudo ss -lnpt | grep sshd
+LISTEN 0      128          0.0.0.0:22        0.0.0.0:*    users:(("sshd",pid=640,fd=3))
+LISTEN 0      128             [::]:22           [::]:*    users:(("sshd",pid=640,fd=4))
+sarah@iwantoeat:~$ ssh -p 9344 sarah@192.168.206.2
+ssh: connect to host 192.168.206.2 port 9344: Connection refused
+
+#III - B
+
+sarah@iwantoeat:~$ systemctl show -p FragmentPath ssh.service
+FragmentPath=/lib/systemd/system/ssh.service
+
+sarah@iwantoeat:~$ systemctl show ssh.service -p ExecStart
+ExecStart={ path=/usr/sbin/sshd ; argv[]=/usr/sbin/>
+lines 1-1/1 (END)
+
+sarah@iwantoeat:~$ echo "meow" > meow
+sarah@iwantoeat:~$ python3 -m http.server 8888
+Serving HTTP on 0.0.0.0 port 8888 (http://0.0.0.0:8888/) ...
