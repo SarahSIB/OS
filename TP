@@ -1,0 +1,1376 @@
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % ps
+  PID TTY           TIME CMD
+23310 ttys000    0:00.03 -zsh
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % ps aux
+USER               PID  %CPU %MEM      VSZ    RSS   TT  STAT STARTED      TIME COMMAND
+_windowserver      154   6,7  0,6 36520864  50116   ??  Ss    2oct24 618:44.61 /System/Library/
+sarahsiblini     22703   2,8  3,3 1255674352 275040   ??  S     4:05     2:40.15 /Applications/Go
+sarahsiblini     23308   1,8  0,8 34469812  63052   ??  S     4:25     0:11.80 /System/Applicat
+_mdnsresponder     194   1,1  0,1 33696744   8860   ??  Ss    2oct24  41:48.18 /usr/sbin/mDNSRe
+sarahsiblini     23712   0,8  2,6 1245672524 215240   ??  S     4:44     0:05.80 /Applications/Go
+sarahsiblini       606   0,7  0,7 67588304  56820   ??  S     2oct24  69:28.76 /Applications/Go
+sarahsiblini       614   0,7  0,0 34273332   3224   ??  S     2oct24   1:26.93 /System/Library/
+sarahsiblini       456   0,5  0,0 33660224   1404   ??  S     2oct24   1:05.45 /System/Library/
+root               113   0,3  0,2 33833168  13840   ??  Ss    2oct24  12:14.87 /System/Library/
+root               297   0,3  0,8 35806816  69756   ??  Ss    2oct24  28:42.18 /System/Library/
+root               126   0,2  0,1 33692964   6748   ??  Ss    2oct24  14:04.30 /System/Library/
+_networkd          207   0,1  0,1 33702288   6408   ??  Ss    2oct24   6:37.21 /usr/libexec/sym
+sarahsiblini     23638   0,1  0,2 33668804  13572   ??  S     4:40     0:00.38 /System/Library/
+sarahsiblini     27151   0,1  0,5 1220867336  42192   ??  S    14oct24  28:54.89 /private/var/fol
+sarahsiblini       451   0,1  0,0 33691068   3924   ??  S     2oct24   0:39.27 /System/Library/
+sarahsiblini       756   0,1  0,1 33836412   4640   ??  Ss    2oct24   0:37.26 /System/Library/
+sarahsiblini     23310   0,1  0,0 34151832   1932 s000  S     4:25     0:00.06 -zsh
+sarahsiblini     20445   0,0  0,0 33690548   2920   ??  Ss    1:54     0:00.08 /System/Library/
+sarahsiblini     18585   0,0  0,1 33691752   7740   ??  S    11:45     0:00.19 /System/Library/
+_driverkit       18493   0,0  0,0 34143292    632   ??  Ss   11:22     0:00.29 /System/Library/
+sarahsiblini     18269   0,0  0,1 34228036   8488   ??  S     9:00     0:21.05 /Library/Applica
+root             18256   0,0  0,1 33703120   9960   ??  Ss    8:59     0:21.33 /usr/libexec/Per
+root             18188   0,0  0,0 33660184     56   ??  Ss    8:59     0:00.20 /System/Library/
+_captiveagent    18126   0,0  0,0 33660864   1040   ??  Ss    8:58     0:00.13 /usr/libexec/cap
+sarahsiblini     16661   0,0  0,0 34197688   1608   ??  S    Lun10     0:00.52 /Users/sarahsibl
+sarahsiblini     16660   0,0  0,0 34187260    696   ??  S    Lun10     0:04.78 /Applications/Wh
+sarahsiblini     16658   0,0  0,0 34181980     44   ??  Ss   Lun10     0:00.10 /Applications/Wh
+_cmiodalassistants 15710   0,0  0,0 33661084    236   ??  Ss   27oct24   0:00.38 /System/Library/
+sarahsiblini     14416   0,0  0,0 33660168    156   ??  Ss   27oct24   0:00.05 /System/Library/
+sarahsiblini     14409   0,0  0,1 33700676   5180   ??  S    27oct24   0:05.17 /usr/libexec/rou
+root             13457   0,0  0,0 33689956    216   ??  Ss   25oct24   0:00.17 /System/Library/
+root             13416   0,0  0,0 33643740    168   ??  SNs  25oct24   0:00.01 /usr/libexec/per
+root             13402   0,0  0,0 33691112    276   ??  Ss   25oct24   0:00.27 /System/Library/
+_softwareupdate  13401   0,0  0,0 33691140    196   ??  Ss   25oct24   0:00.14 /System/Library/
+root             11854   0,0  0,0 33690156    120   ??  Ss   25oct24   0:00.14 /usr/libexec/con
+root             11853   0,0  0,0 33691072    360   ??  Ss   25oct24   0:00.21 /usr/libexec/sec
+sarahsiblini     11800   0,0  0,0 34197740     20   ??  Ss   25oct24   0:00.15 /System/Library/
+sarahsiblini     11799   0,0  0,0 33662496      8   ??  Ss   25oct24   0:00.07 /System/Library/
+sarahsiblini     11794   0,0  0,0 33662496      8   ??  Ss   25oct24   0:00.05 /System/Library/
+sarahsiblini     11793   0,0  0,1 68100936   4564   ??  S    25oct24   0:01.72 /Applications/Mi
+sarahsiblini     11792   0,0  0,1 68097860   4672   ??  S    25oct24   0:01.92 /Applications/Mi
+root             11775   0,0  0,0 33659296    132   ??  S    25oct24   0:01.36 /System/Library/
+sarahsiblini     11770   0,0  0,0 33654304      8   ??  Ss   25oct24   0:00.06 /System/Library/
+sarahsiblini     11739   0,0  0,0 34154040    840   ??  Ss   25oct24   0:03.34 /Applications/Mi
+sarahsiblini     11733   0,0  0,7 1247524084  57056   ??  S    25oct24   2:39.97 /Applications/Mi
+sarahsiblini     11731   0,0  0,0 34203632      8   ??  Ss   25oct24   0:00.18 /System/Library/
+sarahsiblini     11726   0,0  1,8 1251042260 154088   ??  S    25oct24   2:03.71 /Applications/Mi
+sarahsiblini     11725   0,0  0,2 1247486528  13564   ??  S    25oct24   0:03.04 /Applications/Mi
+sarahsiblini     11724   0,0  0,1 68082808   5936   ??  S    25oct24   0:01.86 /Applications/Mi
+sarahsiblini     11723   0,0  0,2 68100308  20636   ??  S    25oct24   0:48.39 /Applications/Mi
+sarahsiblini     11721   0,0  0,3 68178996  21944   ??  S    25oct24   0:10.87 /Applications/Mi
+sarahsiblini     11717   0,0  0,0 67687520      8   ??  S    25oct24   0:00.01 /Applications/Mi
+sarahsiblini     11715   0,0  0,0 67681764    620   ??  S    25oct24   0:00.06 /Applications/Mi
+sarahsiblini     11713   0,0  1,0 102054704  82180   ??  S    25oct24   1:54.00 /Applications/Mi
+sarahsiblini     11712   0,0  0,0 34275532   1592   ??  Ss   25oct24   0:00.83 /Applications/Mi
+sarahsiblini     11711   0,0  0,0 34153516      8   ??  S    25oct24   0:00.13 /Applications/Mi
+sarahsiblini     11702   0,0  0,5 101681544  39848   ??  S    25oct24   0:51.78 /Applications/Mi
+sarahsiblini      9669   0,0  0,0 33896680    168   ??  Ss   25oct24   0:00.36 /Library/Apple/S
+root              9654   0,0  0,0 33660316   1240   ??  SNs  25oct24   0:01.51 /usr/libexec/war
+sarahsiblini      9653   0,0  0,0 33690848      8   ??  S    25oct24   0:00.11 /usr/libexec/war
+sarahsiblini      9508   0,0  0,0 33690448      8   ??  Ss   25oct24   0:00.06 /System/Library/
+sarahsiblini      9310   0,0  0,0 123205728   1208   ??  Ss   25oct24   0:01.69 /Library/Apple/S
+sarahsiblini      9309   0,0  0,0 34223460      8   ??  Ss   25oct24   0:05.79 /System/Library/
+sarahsiblini      6849   0,0  0,1 140095192   5624   ??  Ss   24oct24   0:03.70 /Library/Apple/S
+sarahsiblini     97560   0,0  0,0 34174444    896   ??  S    23oct24   0:00.04 /Applications/MA
+sarahsiblini     97523   0,0  0,0 34229664   1768   ??  S    23oct24   0:00.01 /Applications/MA
+sarahsiblini     97522   0,0  0,0 34229664   1768   ??  S    23oct24   0:00.04 /Applications/MA
+sarahsiblini     97521   0,0  0,0 34229664      8   ??  S    23oct24   0:00.01 /Applications/MA
+sarahsiblini     97520   0,0  0,0 34229968      8   ??  S    23oct24   0:00.05 /Applications/MA
+sarahsiblini     97465   0,0  0,0 34229444      8   ??  Ss   23oct24   0:00.15 /Applications/MA
+sarahsiblini     97463   0,0  0,0 34174532    100   ??  S    23oct24   0:00.01 /Applications/MA
+sarahsiblini     97462   0,0  0,0 34174532    900   ??  S    23oct24   0:00.04 /Applications/MA
+sarahsiblini     97461   0,0  0,0 34174440    100   ??  S    23oct24   0:00.01 /Applications/MA
+sarahsiblini     97460   0,0  0,0 34160560     80   ??  S    23oct24   0:00.03 /Applications/MA
+root             97456   0,0  0,0 34160900    136   ??  Ss   23oct24   0:02.36 /Applications/MA
+root             96502   0,0  0,0 33663176      8   ??  Ss   23oct24   0:00.13 /usr/libexec/wif
+sarahsiblini     91798   0,0  0,0 33850904   1776   ??  S    23oct24   0:00.39 /System/Library/
+sarahsiblini     86911   0,0  0,0 33660156     64   ??  S    23oct24   0:00.03 /System/Library/
+sarahsiblini     83121   0,0  0,0 33878052      8   ??  S    23oct24   0:01.23 /Library/Apple/S
+sarahsiblini     79621   0,0  0,0 33696100     32   ??  Ss   22oct24   0:00.27 /System/Applicat
+sarahsiblini     76827   0,0  0,0 33660108      8   ??  Ss   22oct24   0:00.07 /Library/Apple/S
+sarahsiblini     76823   0,0  0,0 33787280   2428   ??  S    22oct24   0:03.56 /System/Library/
+sarahsiblini     68399   0,0  0,0 33660168      8   ??  Ss   21oct24   0:00.07 /System/Library/
+sarahsiblini     67694   0,0  0,0 33690448      8   ??  Ss   21oct24   0:00.10 /System/Library/
+sarahsiblini     67688   0,0  0,0 34203476      8   ??  Ss   21oct24   0:00.12 /System/Library/
+sarahsiblini     67038   0,0  0,0 34241572   1872   ??  S    21oct24   0:14.32 /System/Library/
+sarahsiblini     66761   0,0  0,0 33666500      8   ??  Ss   21oct24   0:00.14 /System/Library/
+sarahsiblini     57418   0,0  2,8 1245558612 232796   ??  S    21oct24   4:29.98 /Applications/Go
+_datadetectors   59519   0,0  0,0 33659604    708   ??  Ss   21oct24   0:00.09 /usr/libexec/Dat
+root             59302   0,0  0,0 33659616    124   ??  Ss   21oct24   0:00.04 /usr/libexec/bat
+_accessoryupdater 59296   0,0  0,0 33689924    424   ??  Ss   21oct24   0:00.22 /System/Library/
+root             59112   0,0  0,0 33659844    128   ??  Ss   21oct24   0:00.11 /usr/libexec/mob
+sarahsiblini     59039   0,0  0,0 33659668    312   ??  S    21oct24   0:00.15 /System/Library/
+root             58551   0,0  0,0 34181700    388   ??  Ss   21oct24   0:00.17 /usr/libexec/mem
+sarahsiblini     58528   0,0  0,0 33660720    364   ??  Ss   21oct24   0:00.25 /System/Library/
+sarahsiblini     58527   0,0  0,0 33690336    868   ??  S    21oct24   0:00.16 /System/Library/
+sarahsiblini     58523   0,0  0,0 33660352    444   ??  Ss   21oct24   0:00.41 /System/Library/
+sarahsiblini     58521   0,0  0,1 33803492   5932   ??  Ss   21oct24   0:09.29 /Applications/Wh
+sarahsiblini     58357   0,0  0,0 34185956     28   ??  Ss   19oct24   0:00.41 /System/Library/
+root             58336   0,0  0,0 33634248      8   ??  Ss   19oct24   0:00.01 /usr/sbin/aslman
+_hidd            58312   0,0  0,0 33659616    224   ??  Ss   19oct24   0:02.02 /usr/libexec/hid
+root             57826   0,0  0,0 33659856     24   ??  Ss   19oct24   0:00.52 aslmanager
+sarahsiblini     52373   0,0  0,0 33702104   2908   ??  S    18oct24   0:06.36 /usr/libexec/tra
+sarahsiblini     50732   0,0  0,0 33696148   1960   ??  Ss   18oct24   0:00.24 /System/Library/
+_diskimagesiod   50184   0,0  0,0 33700872    520   ??  Ss   18oct24   0:04.91 /usr/libexec/dis
+_diskimagesiod   49900   0,0  0,0 33698568    516   ??  Ss   18oct24   0:21.70 /usr/libexec/dis
+_diskimagesiod   49663   0,0  0,0 33698608    516   ??  Ss   18oct24   0:25.86 /usr/libexec/dis
+_accessoryupdater 49589   0,0  0,0 34187388    632   ??  Ss   18oct24   0:00.19 /System/Library/
+sarahsiblini     48837   0,0  0,0 33660484    316   ??  S    18oct24   0:00.32 /System/Library/
+sarahsiblini     48715   0,0  0,0 33690452   1632   ??  S    18oct24   0:29.23 /Library/Apple/S
+sarahsiblini     48714   0,0  0,0 34151296    668   ??  S    18oct24   0:00.16 /Library/Apple/S
+sarahsiblini     48356   0,0  0,0 33990656    460   ??  Ss   18oct24   0:09.81 /System/Library/
+root             48122   0,0  0,0 33691152      8   ??  Ss   18oct24   0:00.09 /System/Library/
+sarahsiblini     48076   0,0  0,0 33660204      8   ??  Ss   18oct24   0:00.02 /System/Library/
+root             48011   0,0  0,0 33660204    256   ??  Ss   18oct24   0:00.02 /System/Library/
+root             47647   0,0  0,0 33690436   1644   ??  Ss   18oct24   0:28.28 /Library/Apple/S
+root             47646   0,0  0,0 34151296    668   ??  Ss   18oct24   0:00.17 /Library/Apple/S
+sarahsiblini     47352   0,0  0,0 33700704   1532   ??  S    18oct24   0:01.37 /System/Library/
+root             47351   0,0  0,0 33659600     56   ??  Ss   18oct24   0:00.08 /usr/libexec/Pow
+_gamecontrollerd 47163   0,0  0,0 33690020   1248   ??  Ss   18oct24   0:09.45 /usr/libexec/gam
+sarahsiblini     47162   0,0  0,1 33945096   9456   ??  S    18oct24   0:08.18 /System/Library/
+sarahsiblini     44989   0,0  0,0 33705956   1544   ??  S    18oct24   0:02.64 /System/Library/
+sarahsiblini     44496   0,0  0,0 34229664      8   ??  S    18oct24   0:00.01 /Applications/MA
+sarahsiblini     44495   0,0  0,0 34229664      8   ??  S    18oct24   0:00.00 /Applications/MA
+sarahsiblini     44494   0,0  0,0 34229664      8   ??  S    18oct24   0:00.01 /Applications/MA
+sarahsiblini     44493   0,0  0,0 34229968      8   ??  S    18oct24   0:00.03 /Applications/MA
+sarahsiblini     44435   0,0  0,0 34229444      8   ??  Ss   18oct24   0:00.15 /Applications/MA
+sarahsiblini     44225   0,0  0,0 34197472   1828   ??  Ss   18oct24   0:04.43 /System/Library/
+sarahsiblini     44224   0,0  0,1 34467776   9516   ??  Ss   18oct24   1:14.37 /System/Library/
+sarahsiblini     42774   0,0  0,5 1245456260  38176   ??  S    18oct24   0:10.72 /Applications/Go
+root             42593   0,0  0,0 34275232   2020   ??  S    18oct24   0:02.22 /Applications/MA
+sarahsiblini     41121   0,0  0,2 34468884  19280   ??  S    18oct24   3:29.81 /Applications/MA
+root             41021   0,0  0,0 34184636    292   ??  Ss   18oct24   1:48.01 /Library/Privile
+sarahsiblini     40834   0,0  0,0 33706648   1640   ??  Ss   18oct24   0:09.22 /System/Library/
+sarahsiblini     40677   0,0  0,0 33660204      8   ??  Ss   18oct24   0:00.02 /System/Library/
+sarahsiblini     40676   0,0  0,0 33660204      8   ??  Ss   18oct24   0:00.02 /System/Library/
+sarahsiblini     39122   0,0  0,0 33689888      8   ??  S    17oct24   0:00.02 /System/Library/
+sarahsiblini     37395   0,0  0,0 33707564   1756   ??  S    17oct24   0:02.63 /System/Library/
+sarahsiblini     37393   0,0  0,0 34197472   1964   ??  Ss   17oct24   0:05.06 /System/Library/
+sarahsiblini     37392   0,0  0,0 34326504   3668   ??  Ss   17oct24   0:12.00 /System/Library/
+sarahsiblini     37391   0,0  0,0 34050604   1740   ??  Ss   17oct24   0:01.61 /Library/Apple/S
+sarahsiblini     37387   0,0  0,0 34385684   2192   ??  Ss   17oct24   0:05.55 /Applications/Sa
+sarahsiblini     37385   0,0  0,0 34048964   2424   ??  Ss   17oct24   0:03.16 /Library/Apple/S
+sarahsiblini     37381   0,0  0,0 33927592    888   ??  S    17oct24   0:01.01 /Library/Apple/S
+sarahsiblini     37380   0,0  0,2 39231484  15984   ??  S    17oct24   0:54.75 /Applications/Sa
+sarahsiblini     37154   0,0  0,0 34200948   3992   ??  Ss   17oct24   0:13.75 /System/Library/
+_iconservices    36901   0,0  0,0 33631972    244   ??  S    17oct24   0:03.12 /usr/sbin/distno
+_spotlight       36765   0,0  0,0 33693076   1260   ??  S    17oct24   0:03.52 /usr/libexec/tru
+sarahsiblini     36747   0,0  0,1 33699480   6796   ??  S    17oct24   2:31.18 /usr/libexec/tru
+_trustd          36745   0,0  0,1 33706712   5428   ??  Ss   17oct24   6:27.15 /usr/libexec/tru
+sarahsiblini     27214   0,0  0,1 1220534188   8404   ??  S    14oct24   3:19.82 /private/var/fol
+sarahsiblini     27200   0,0  0,0 34197472   1928   ??  Ss   14oct24   0:06.04 /System/Library/
+sarahsiblini     27199   0,0  0,1 34501728  11232   ??  Ss   14oct24   3:02.59 /System/Library/
+sarahsiblini     27167   0,0  0,1 1220541752   8208   ??  S    14oct24   2:01.39 /private/var/fol
+sarahsiblini     27156   0,0  0,1 67492520   7540   ??  S    14oct24   1:21.13 /private/var/fol
+sarahsiblini     27155   0,0  0,1 67533232  11292   ??  S    14oct24  25:13.51 /private/var/fol
+sarahsiblini     27154   0,0  0,0 67208640    620   ??  S    14oct24   0:00.30 /var/folders/cp/
+sarahsiblini     27150   0,0  0,0 33652012      8   ??  Ss   14oct24   0:00.03 /System/Library/
+sarahsiblini     22413   0,0  1,8 35709088 151032   ??  S    11oct24  34:07.45 /Applications/Wh
+sarahsiblini     22395   0,0  0,0 33691512    948   ??  S    11oct24   0:01.73 /System/Library/
+_accessoryupdater 18095   0,0  0,0 33689548    544   ??  Ss   10oct24   0:00.20 /System/Library/
+sarahsiblini     15812   0,0  0,0 33927288   1760   ??  Ss    7oct24   0:02.48 /System/Library/
+_accessoryupdater 14099   0,0  0,0 34155104    428   ??  Ss    7oct24   0:01.00 /System/Library/
+_trustd          14043   0,0  0,0 33631972    248   ??  S     7oct24   0:04.97 /usr/sbin/distno
+_accessoryupdater 13355   0,0  0,0 33692464   1792   ??  Ss    7oct24   0:06.43 /System/Library/
+sarahsiblini     12095   0,0  0,0 34226164   2520   ??  Ss    4oct24   0:09.79 /System/Library/
+sarahsiblini     12094   0,0  0,1 34424200   5684   ??  Ss    4oct24   2:14.15 /System/Library/
+sarahsiblini     11182   0,0  0,1 33829552   5296   ??  Ss    4oct24   0:09.08 /System/Library/
+sarahsiblini     10282   0,0  0,0 33929644      8   ??  Ss    4oct24   0:05.89 /System/Library/
+_networkd         8249   0,0  0,0 33631972    244   ??  S     4oct24   0:05.38 /usr/sbin/distno
+_analyticsd       8248   0,0  0,0 33631972    244   ??  S     4oct24   0:05.39 /usr/sbin/distno
+root              8242   0,0  0,0 33693856   1452   ??  Ss    4oct24   1:27.91 /System/Library/
+sarahsiblini      8241   0,0  0,0 33704592   3312   ??  S     4oct24   0:01.14 /System/Library/
+sarahsiblini      8105   0,0  0,0 33699340   2728   ??  S     4oct24   0:19.13 /usr/libexec/sea
+_driverkit        7578   0,0  0,0 34125788     12   ??  Ss    3oct24   0:00.01 /System/Library/
+root              7554   0,0  0,1 33752500   8316   ??  Ss    3oct24  31:12.78 /usr/sbin/blueto
+sarahsiblini      4928   0,0  0,0 33743112   1988   ??  S     3oct24   0:06.98 /System/Library/
+sarahsiblini      4913   0,0  0,0 33691072    588   ??  Ss    3oct24   0:01.05 /System/Library/
+sarahsiblini      4718   0,0  0,0 33699952   2188   ??  S     3oct24   0:16.59 /System/Library/
+root              4430   0,0  0,0 33660212    456   ??  Ss    3oct24   0:00.11 /System/Library/
+root              4429   0,0  0,0 33689828    792   ??  Ss    3oct24   0:00.22 /usr/libexec/mic
+root              4426   0,0  0,0 33659604    232   ??  Ss    3oct24   0:00.10 /System/Library/
+sarahsiblini      4413   0,0  0,0 33717680   2968   ??  Ss    3oct24   0:01.03 /System/Library/
+sarahsiblini      4408   0,0  0,0 33660188    160   ??  S     3oct24   0:00.12 /usr/libexec/pro
+sarahsiblini      4405   0,0  0,0 33689924   1904   ??  Ss    3oct24   0:00.37 /System/Applicat
+root              4404   0,0  0,0 33690624   2856   ??  Ss    3oct24   0:22.36 /System/Library/
+root              4403   0,0  0,0 33691564    576   ??  Ss    3oct24   0:00.26 /usr/bin/sysdiag
+sarahsiblini      4400   0,0  0,0 33689908    840   ??  S     3oct24   0:01.93 /usr/libexec/sil
+root              4291   0,0  0,0 33643740    156   ??  SNs   3oct24   0:00.08 /usr/libexec/per
+sarahsiblini      4290   0,0  0,0 33691936   2524   ??  S     3oct24   0:01.74 /usr/libexec/app
+sarahsiblini      4284   0,0  0,0 33689960    636   ??  S     3oct24   0:00.19 /System/Library/
+sarahsiblini      4283   0,0  0,0 33983372   3688   ??  S     3oct24   0:10.47 /System/Library/
+sarahsiblini      4266   0,0  0,1 33702720   4844   ??  S     3oct24   0:07.76 /usr/libexec/tip
+root              4265   0,0  0,0 33695328   1584   ??  Ss    3oct24   0:04.16 /usr/libexec/dpr
+sarahsiblini      4263   0,0  0,0 33695888   3412   ??  S     3oct24   0:05.40 /System/Library/
+sarahsiblini      3656   0,0  0,0 33733720   4124   ??  S     3oct24   0:06.76 /System/Library/
+sarahsiblini      3543   0,0  0,0 33660556    376   ??  S     3oct24   0:00.09 /System/Library/
+sarahsiblini      1961   0,0  0,0 34080416   3268   ??  Ss    3oct24   0:01.90 /Applications/Sa
+sarahsiblini      1958   0,0  0,0 33696348   2488   ??  Ss    3oct24   0:00.86 /System/Applicat
+sarahsiblini      1888   0,0  0,0 33696348   2496   ??  Ss    3oct24   0:00.81 /System/Applicat
+sarahsiblini      1887   0,0  0,0 33661980    644   ??  S     3oct24   0:00.41 /System/Library/
+root              1886   0,0  0,0 33707240    896   ??  Ss    3oct24   0:09.15 /System/Library/
+sarahsiblini      1885   0,0  0,0 33689876    876   ??  S     3oct24   0:00.95 /System/Library/
+sarahsiblini      1884   0,0  0,0 33660620    660   ??  S     3oct24   0:00.43 /usr/libexec/rep
+root              1881   0,0  0,0 33660124    620   ??  Ss    3oct24   0:02.25 /System/Library/
+sarahsiblini      1586   0,0  0,0 33731748   2084   ??  S     3oct24   0:01.75 /System/Library/
+sarahsiblini      1505   0,0  0,0 34198812   1460   ??  Ss    3oct24   0:07.68 /System/Library/
+sarahsiblini      1430   0,0  0,0 34225964   2744   ??  S     3oct24   0:08.98 /System/Library/
+sarahsiblini      1404   0,0  0,0 33690200    448   ??  S     3oct24   0:00.38 /System/Library/
+root              1279   0,0  0,0 33689632     52   ??  Ss    3oct24   0:01.02 /System/Library/
+sarahsiblini      1210   0,0  0,0 33660128    144   ??  S     2oct24   0:00.73 /usr/libexec/USB
+sarahsiblini      1201   0,0  0,1 33723052   4260   ??  Ss    2oct24  24:27.36 /System/Library/
+sarahsiblini      1200   0,0  0,1 33744972   7016   ??  Ss    2oct24  11:06.12 /System/Applicat
+sarahsiblini      1148   0,0  0,2 33760580  16264   ??  Ss    2oct24   4:06.38 /System/Applicat
+sarahsiblini      1124   0,0  0,3 33719796  21880   ??  S     2oct24   1:56.16 /System/Library/
+sarahsiblini      1121   0,0  0,0 33660160      8   ??  S     2oct24   0:00.13 /System/Library/
+sarahsiblini      1104   0,0  0,0 33689876      8   ??  S     2oct24   0:00.15 /usr/libexec/met
+sarahsiblini      1101   0,0  0,0 33694284   1876   ??  S     2oct24   0:02.92 /usr/libexec/key
+sarahsiblini      1100   0,0  0,2 34170932  19836   ??  S     2oct24   0:33.39 /System/Library/
+sarahsiblini      1089   0,0  0,0 33689704    956   ??  S     2oct24   0:01.43 /usr/sbin/BTLESe
+_windowserver     1016   0,0  0,1 34204692   6732   ??  Ss    2oct24   0:01.83 /System/Library/
+sarahsiblini       945   0,0  0,0 33690512   2880   ??  S     2oct24   0:02.32 /System/Library/
+sarahsiblini       944   0,0  0,0 33690896   1328   ??  S     2oct24   0:05.45 /usr/libexec/mlr
+sarahsiblini       943   0,0  0,0 33660204   1392   ??  S     2oct24   0:02.93 /System/Library/
+root               942   0,0  0,0 33714624    932   ??  Ss    2oct24   4:56.29 /System/Library/
+sarahsiblini       922   0,0  0,0 33678608   1784   ??  S     2oct24   0:04.90 /usr/libexec/pro
+root               919   0,0  0,0 33690696    392   ??  Ss    2oct24   0:00.25 /usr/libexec/ASP
+sarahsiblini       918   0,0  0,1 33709816   8180   ??  S     2oct24   0:30.74 /System/Library/
+_fpsd              911   0,0  0,0 33660308    108   ??  Ss    2oct24   0:03.11 /System/Library/
+root               909   0,0  0,0 33690284   1488   ??  Ss    2oct24   0:02.66 /System/Library/
+sarahsiblini       902   0,0  0,1 34309076   4692   ??  S     2oct24   0:29.17 /System/Library/
+root               847   0,0  0,0 33660248    844   ??  Ss    2oct24   0:00.37 /usr/libexec/tzd
+sarahsiblini       822   0,0  0,0 33690832   1888   ??  S     2oct24   0:03.39 /usr/libexec/pro
+sarahsiblini       820   0,0  0,0 33751048   2404   ??  S     2oct24   0:09.50 /Library/Apple/S
+sarahsiblini       819   0,0  0,0 34043264    252   ??  S     2oct24   0:01.71 /Library/Apple/S
+sarahsiblini       779   0,0  0,0 33660204   1808   ??  S     2oct24   0:00.68 /System/Library/
+sarahsiblini       776   0,0  0,0 33661020   1128   ??  S     2oct24   0:01.75 /usr/libexec/bio
+sarahsiblini       773   0,0  0,1 33714256   7624   ??  S     2oct24   1:27.63 /System/Library/
+sarahsiblini       772   0,0  0,1 33702860   5452   ??  S     2oct24   0:10.87 /usr/libexec/adp
+sarahsiblini       763   0,0  0,0 33660716   1460   ??  S     2oct24   0:04.93 /System/Library/
+_spotlight         762   0,0  0,0 33698444   3996   ??  SN    2oct24   0:30.04 /System/Library/
+_fpsd              718   0,0  0,0 33660080      8   ??  Ss    2oct24   0:00.19 /System/Library/
+sarahsiblini       716   0,0  0,0 33695568    452   ??  Ss    2oct24   0:02.19 /System/Library/
+sarahsiblini       715   0,0  0,1 34001852   5212   ??  S     2oct24   1:11.61 /System/Library/
+root               713   0,0  0,0 33661184    528   ??  Ss    2oct24   0:01.63 /System/Library/
+sarahsiblini       711   0,0  0,0 33690820   1956   ??  S     2oct24   0:01.65 /System/Library/
+sarahsiblini       679   0,0  0,1 67573876   4976   ??  S     2oct24   0:27.48 /Applications/Go
+sarahsiblini       678   0,0  0,1 67555780   5308   ??  S     2oct24   4:10.49 /Applications/Go
+root               676   0,0  0,0 33659620    640   ??  Ss    2oct24   0:00.11 /System/Library/
+sarahsiblini       665   0,0  0,0 33792412   3884   ??  S     2oct24   0:07.80 /System/Library/
+sarahsiblini       645   0,0  0,1 33710764   8292   ??  S     2oct24   3:35.84 /System/Library/
+sarahsiblini       644   0,0  0,0 34142440      8   ??  S     2oct24   1:41.43 /Users/sarahsibl
+root               639   0,0  0,0 33660240      8   ??  Ss    2oct24   0:00.10 /System/Library/
+_reportmemoryexception   638   0,0  0,0 33631972    240   ??  S     2oct24   0:06.02 /usr/sbin/distno
+root               636   0,0  0,0 33660172    152   ??  Ss    2oct24   0:00.13 /usr/libexec/onl
+root               632   0,0  0,0 33706452   1484   ??  Ss    2oct24  23:29.77 /System/Library/
+sarahsiblini       631   0,0  0,0 33738268   1980   ??  S     2oct24   0:06.44 /System/Library/
+sarahsiblini       625   0,0  0,0 33659748    332   ??  S     2oct24   0:00.29 /System/Library/
+sarahsiblini       623   0,0  0,0 33695392   2932   ??  S     2oct24   0:14.28 /System/Library/
+sarahsiblini       621   0,0  0,1 34313996   5988   ??  S     2oct24   0:16.63 /System/Library/
+sarahsiblini       620   0,0  0,0 33690820   3256   ??  S     2oct24   0:52.21 /System/Library/
+sarahsiblini       619   0,0  0,0 33691768   3356   ??  S     2oct24   0:05.41 /System/Library/
+sarahsiblini       618   0,0  0,0 34197656   1684   ??  S     2oct24   0:04.85 /System/Library/
+sarahsiblini       615   0,0  0,0 33693636    744   ??  S     2oct24   0:09.52 /System/Library/
+sarahsiblini       608   0,0  0,1 67558176   7748   ??  S     2oct24   0:36.87 /Applications/Go
+sarahsiblini       605   0,0  1,1 68333880  95820   ??  S     2oct24 196:35.54 /Applications/Go
+root               604   0,0  0,0 33691864    332   ??  Ss    2oct24   0:00.60 /usr/libexec/smd
+sarahsiblini       601   0,0  0,0 33739904   4052   ??  S     2oct24   0:20.01 /System/Library/
+sarahsiblini       600   0,0  0,0 67209448    612   ??  S     2oct24   0:00.36 /Applications/Go
+sarahsiblini       597   0,0  0,0 33697160   2904   ??  S     2oct24   0:14.84 cloudphotod
+sarahsiblini       596   0,0  0,0 33659684   2048   ??  S     2oct24   0:02.23 /usr/libexec/fin
+_assetcache        594   0,0  0,0 33631972    244   ??  S     2oct24   0:06.07 /usr/sbin/distno
+sarahsiblini       593   0,0  0,0 33700048    552   ??  S     2oct24   0:02.06 /System/Library/
+sarahsiblini       591   0,0  0,1 33713056   4276   ??  Ss    2oct24   0:05.05 /System/Library/
+sarahsiblini       587   0,0  0,0 33690288    224   ??  Ss    2oct24   0:00.69 /System/Library/
+sarahsiblini       584   0,0  0,0 33689992    816   ??  S     2oct24   0:00.52 /usr/libexec/dia
+root               582   0,0  0,0 33697476   3636   ??  Ss    2oct24   0:25.67 /usr/libexec/rtc
+_assetcache        581   0,0  0,0 33691948    620   ??  Ss    2oct24   0:00.71 /usr/libexec/Ass
+sarahsiblini       580   0,0  0,0 33696200   2252   ??  S     2oct24   0:05.29 /System/Library/
+sarahsiblini       578   0,0  0,0 33690608   2956   ??  S     2oct24   0:24.62 /System/Library/
+sarahsiblini       575   0,0  0,0 33699612   3852   ??  S     2oct24   0:11.30 /System/Library/
+sarahsiblini       574   0,0  0,0 33690448      8   ??  Ss    2oct24   0:00.15 /System/Library/
+sarahsiblini       570   0,0  0,1 33698604   8424   ??  S     2oct24  13:03.60 /System/Library/
+sarahsiblini       568   0,0  0,3 33973624  24760   ??  S     2oct24   3:00.33 /System/Library/
+root               567   0,0  0,0 33698552   2260   ??  Ss    2oct24   0:43.62 /System/Library/
+sarahsiblini       566   0,0  0,1 33698456   5876   ??  SN    2oct24   0:40.52 /System/Library/
+sarahsiblini       564   0,0  0,0 33660204    280   ??  Ss    2oct24   0:00.09 /System/Library/
+sarahsiblini       563   0,0  0,0 33697092   2352   ??  S     2oct24   0:06.30 /System/Library/
+sarahsiblini       562   0,0  0,1 33746804   4268   ??  Ss    2oct24   0:28.07 /System/Library/
+sarahsiblini       561   0,0  0,1 33801220   6676   ??  S     2oct24   2:53.56 /System/Library/
+sarahsiblini       560   0,0  0,0 33691844   2440   ??  S     2oct24   0:06.61 /System/Library/
+sarahsiblini       559   0,0  0,0 33819396   3620   ??  S     2oct24   0:13.78 /System/Library/
+root               558   0,0  0,0 33690456   2016   ??  Ss    2oct24   0:06.32 /usr/libexec/wif
+sarahsiblini       557   0,0  0,0 33659684    552   ??  S     2oct24   0:01.10 /usr/libexec/WiF
+sarahsiblini       556   0,0  0,0 33697220   4048   ??  S     2oct24   0:07.99 /usr/libexec/fmf
+sarahsiblini       555   0,0  0,0 33696176   3516   ??  S     2oct24   0:03.51 /usr/libexec/nea
+sarahsiblini       553   0,0  0,0 33690216    720   ??  S     2oct24   0:00.83 /System/Library/
+sarahsiblini       552   0,0  0,0 33689604   2424   ??  S     2oct24   0:01.56 /System/Library/
+sarahsiblini       550   0,0  0,0 33705904   1668   ??  S     2oct24   0:04.51 /System/Library/
+sarahsiblini       546   0,0  0,0 33698964   1264   ??  Ss    2oct24   0:04.00 /System/Library/
+sarahsiblini       545   0,0  0,1 33831964   7496   ??  Ss    2oct24   3:21.04 /System/Library/
+sarahsiblini       544   0,0  0,0 33659600    292   ??  S     2oct24   0:00.87 /System/Library/
+sarahsiblini       543   0,0  0,0 33694796    116   ??  S     2oct24   0:00.86 /System/Library/
+sarahsiblini       542   0,0  0,0 33690268   1892   ??  S     2oct24   0:11.49 /System/Library/
+sarahsiblini       541   0,0  0,0 33689556   1140   ??  S     2oct24   0:04.70 /System/Library/
+sarahsiblini       539   0,0  0,1 33942540  11432   ??  Ss    2oct24   3:47.51 /System/Library/
+root               536   0,0  0,0 33691252   1932   ??  Ss    2oct24   0:21.72 /usr/sbin/Wirele
+sarahsiblini       535   0,0  0,1 33699356   7364   ??  S     2oct24   2:16.49 /System/Library/
+sarahsiblini       534   0,0  0,0 33692100   4136   ??  S     2oct24   0:19.93 /System/Library/
+sarahsiblini       533   0,0  0,0 33696552    424   ??  Ss    2oct24   0:00.29 /System/Library/
+sarahsiblini       532   0,0  0,0 33691020   1692   ??  Ss    2oct24   0:07.04 /System/Library/
+sarahsiblini       530   0,0  0,1 33785112   6976   ??  S     2oct24   1:03.54 /System/Library/
+sarahsiblini       529   0,0  0,1 33781620  10388   ??  S     2oct24   2:26.76 /System/Library/
+sarahsiblini       528   0,0  0,3 34003364  24388   ??  S     2oct24   3:11.50 /System/Library/
+sarahsiblini       527   0,0  0,0 33689948    588   ??  S     2oct24   0:01.10 /System/Library/
+sarahsiblini       525   0,0  0,1 33694188   5112   ??  S     2oct24   0:09.94 /System/Library/
+sarahsiblini       524   0,0  0,0 33696084    180   ??  Ss    2oct24   0:02.40 /System/Library/
+sarahsiblini       523   0,0  0,0 33817980    328   ??  S     2oct24   0:02.62 /System/Library/
+sarahsiblini       521   0,0  0,0 33691244   2732   ??  S     2oct24  79:01.09 /usr/libexec/tri
+sarahsiblini       520   0,0  0,0 34195520   2960   ??  S     2oct24   0:40.08 /System/Library/
+sarahsiblini       519   0,0  0,0 34322584   2796   ??  S     2oct24   0:11.52 /System/Library/
+sarahsiblini       514   0,0  0,0 33690728    364   ??  S     2oct24   0:00.50 /System/Library/
+sarahsiblini       513   0,0  0,1 33718132   7356   ??  S     2oct24   0:38.65 /System/Library/
+sarahsiblini       512   0,0  0,1 33726420  11900   ??  S     2oct24   3:54.95 /usr/libexec/sha
+sarahsiblini       511   0,0  0,0 33695096   1056   ??  S     2oct24   0:02.19 /System/Library/
+sarahsiblini       506   0,0  0,0 33698656    908   ??  S     2oct24   0:03.48 /System/Library/
+sarahsiblini       505   0,0  0,0 34186636    396   ??  S     2oct24   0:00.49 /usr/libexec/avc
+sarahsiblini       502   0,0  0,2 33714172  12912   ??  S     2oct24  11:52.88 /System/Library/
+sarahsiblini       499   0,0  0,0 33691272    572   ??  S     2oct24   0:01.57 /System/Library/
+sarahsiblini       498   0,0  0,0 33690476   1832   ??  S     2oct24   0:01.57 /System/Library/
+sarahsiblini       496   0,0  0,0 33660908    200   ??  S     2oct24   0:00.29 /usr/libexec/spi
+sarahsiblini       495   0,0  0,0 33698628   2560   ??  S     2oct24   0:08.48 /System/Library/
+root               494   0,0  0,0 33696356   3700   ??  Ss    2oct24   0:26.23 /usr/sbin/spindu
+sarahsiblini       492   0,0  0,0 33696800   1916   ??  S     2oct24   0:04.41 /System/Library/
+sarahsiblini       491   0,0  0,0 34213868   1848   ??  S     2oct24   0:13.26 /System/Library/
+sarahsiblini       488   0,0  0,0 33694208    224   ??  S     2oct24   0:00.62 /System/Library/
+sarahsiblini       487   0,0  0,0 33701076   4004   ??  Ss    2oct24   0:45.57 /System/Library/
+sarahsiblini       486   0,0  0,1 33748592   7416   ??  S     2oct24   1:12.01 /usr/libexec/stu
+sarahsiblini       482   0,0  0,0 33690400   1736   ??  S     2oct24   0:02.42 /System/Library/
+sarahsiblini       481   0,0  0,0 34247952   2912   ??  Ss    2oct24   0:16.58 /System/Library/
+sarahsiblini       475   0,0  0,0 33691372   3736   ??  S     2oct24   0:46.43 /System/Library/
+sarahsiblini       471   0,0  0,0 33703576   3804   ??  S     2oct24   0:10.52 /System/Library/
+sarahsiblini       470   0,0  0,1 33724980   6340   ??  S     2oct24   0:34.57 /System/Library/
+sarahsiblini       469   0,0  0,0 33690288    748   ??  S     2oct24   0:00.67 /System/Library/
+sarahsiblini       468   0,0  0,0 33689856   1140   ??  S     2oct24   0:02.10 /System/Library/
+sarahsiblini       466   0,0  0,1 33727680   5636   ??  S     2oct24   0:16.55 /System/Library/
+sarahsiblini       465   0,0  0,1 33718068   9700   ??  S     2oct24   1:30.66 /System/Library/
+sarahsiblini       464   0,0  0,1 34518532   9332   ??  S     2oct24   0:34.46 /System/Library/
+sarahsiblini       462   0,0  0,0 33660680   1464   ??  S     2oct24   0:04.54 /System/Library/
+sarahsiblini       459   0,0  0,0 33696748   1488   ??  S     2oct24   0:14.22 /System/Library/
+root               458   0,0  0,0 33661284     52   ??  Ss    2oct24   0:00.19 automountd
+sarahsiblini       457   0,0  0,0 33690256   2420   ??  S     2oct24   0:17.90 /System/Library/
+sarahsiblini       455   0,0  0,1 33726452   6908   ??  S     2oct24   6:40.20 /System/Library/
+root               454   0,0  0,0 33666960   3556   ??  Ss    2oct24   0:08.68 /usr/sbin/fileco
+sarahsiblini       453   0,0  0,0 33855284   3852   ??  S     2oct24   0:16.34 /System/Library/
+sarahsiblini       452   0,0  0,0 33748524      8   ??  S     2oct24   0:00.94 /System/Library/
+sarahsiblini       450   0,0  0,0 34197472   1900   ??  Ss    2oct24   0:08.67 /System/Library/
+sarahsiblini       449   0,0  0,1 33694868   4748   ??  S     2oct24   1:10.55 /System/Library/
+sarahsiblini       446   0,0  0,2 34376832  20208   ??  S     2oct24   3:36.47 /System/Library/
+sarahsiblini       445   0,0  0,4 35746636  32492   ??  S     2oct24  19:02.35 /System/Library/
+sarahsiblini       444   0,0  0,1 34311192   5684   ??  S     2oct24   0:22.53 /System/Library/
+sarahsiblini       443   0,0  0,3 34373980  23204   ??  S     2oct24   7:59.18 /System/Library/
+sarahsiblini       442   0,0  0,2 34306592  19264   ??  S     2oct24   5:30.84 /System/Library/
+sarahsiblini       441   0,0  0,0 33740376   1880   ??  S     2oct24   0:06.91 /System/Library/
+sarahsiblini       440   0,0  0,0 33697844   3328   ??  S     2oct24   0:46.87 /System/Library/
+sarahsiblini       439   0,0  0,2 34613192  12740   ??  S     2oct24  10:03.23 /System/Applicat
+sarahsiblini       438   0,0  0,4 34974644  35708   ??  S     2oct24   6:50.85 /System/Applicat
+_appleevents       436   0,0  0,0 33631972    244   ??  S     2oct24   0:06.14 /usr/sbin/distno
+sarahsiblini       435   0,0  0,0 33666380   2728   ??  S     2oct24   0:03.21 /usr/libexec/pbo
+root               433   0,0  0,0 33626480      8   ??  Ss    2oct24   0:20.22 /usr/libexec/tas
+sarahsiblini       430   0,0  0,0 33619432      4   ??  T     2oct24   0:00.01 /System/Applicat
+sarahsiblini       429   0,0  0,0 33608712      4   ??  T     2oct24   0:00.01 /System/Applicat
+sarahsiblini       427   0,0  0,0 33691588   2356   ??  S     2oct24   0:03.23 /usr/libexec/sir
+sarahsiblini       426   0,0  0,0 33696052   1588   ??  S     2oct24   0:16.44 /usr/libexec/dmd
+sarahsiblini       425   0,0  0,0 33696760   3592   ??  S     2oct24   0:29.19 /usr/libexec/swc
+sarahsiblini       424   0,0  0,1 33701212   4712   ??  S     2oct24   0:25.03 /usr/libexec/net
+sarahsiblini       423   0,0  0,1 33695284   4692   ??  S     2oct24   1:08.80 /System/Library/
+sarahsiblini       422   0,0  0,1 33700512   7156   ??  S     2oct24   0:25.48 /System/Library/
+sarahsiblini       421   0,0  3,4 68422096 287296   ??  S     2oct24 158:39.34 /Applications/Go
+sarahsiblini       420   0,0  0,2 33747760  13488   ??  S     2oct24   1:08.35 /System/Library/
+sarahsiblini       418   0,0  0,2 33711180  13276   ??  S     2oct24   1:42.24 /System/Library/
+sarahsiblini       416   0,0  0,0 33692220   1684   ??  S     2oct24   0:41.27 /usr/libexec/con
+sarahsiblini       415   0,0  0,1 33699140   6376   ??  S     2oct24   0:22.79 /usr/sbin/userno
+sarahsiblini       414   0,0  0,0 33691064   1820   ??  S     2oct24   1:22.46 /System/Library/
+sarahsiblini       413   0,0  0,1 33718192  12084   ??  S     2oct24   1:55.86 /System/Library/
+sarahsiblini       412   0,0  0,0 33691088   2224   ??  S     2oct24   0:04.15 /usr/libexec/sec
+sarahsiblini       410   0,0  0,1 33712384   6572   ??  S     2oct24   1:35.63 /usr/libexec/nsu
+sarahsiblini       409   0,0  0,1 33694964   7816   ??  S     2oct24   4:34.26 /usr/libexec/rap
+sarahsiblini       408   0,0  0,1 33706172   5232   ??  S     2oct24   0:35.26 /System/Library/
+sarahsiblini       407   0,0  0,0 33700928   3584   ??  S     2oct24   1:30.59 /usr/libexec/pkd
+sarahsiblini       406   0,0  0,0 34275580   2412   ??  S     2oct24   0:05.63 /System/Library/
+sarahsiblini       405   0,0  0,0 33691728   2448   ??  S     2oct24   0:07.92 /System/Library/
+sarahsiblini       404   0,0  0,1 33699032   5228   ??  S     2oct24   0:17.72 /System/Library/
+sarahsiblini       403   0,0  0,0 33699448   2356   ??  S     2oct24   0:02.35 /System/Library/
+sarahsiblini       401   0,0  0,0 33691240    676   ??  S     2oct24   0:02.96 /System/Library/
+sarahsiblini       400   0,0  0,1 33900024   7928   ??  S     2oct24   1:38.49 /System/Library/
+sarahsiblini       397   0,0  0,1 33697372   7404   ??  S     2oct24   1:59.66 /usr/libexec/sec
+sarahsiblini       396   0,0  0,0 33697864   3656   ??  S     2oct24   0:05.55 /System/Library/
+sarahsiblini       394   0,0  0,0 33660124    604   ??  S     2oct24   0:00.21 /System/Library/
+sarahsiblini       393   0,0  0,1 33742320  10268   ??  S     2oct24   0:32.52 /System/Library/
+sarahsiblini       392   0,0  0,1 33697656   4896   ??  S     2oct24   0:53.57 /System/Library/
+sarahsiblini       391   0,0  0,1 33704956   7516   ??  S     2oct24   1:10.65 /usr/libexec/kno
+sarahsiblini       390   0,0  0,1 33698040   5028   ??  S     2oct24   1:30.46 /usr/libexec/lsd
+sarahsiblini       386   0,0  0,1 33694932   6160   ??  S     2oct24   0:56.58 /usr/libexec/Use
+root               385   0,0  0,0 33660208    160   ??  Ss    2oct24   0:00.55 /usr/libexec/sec
+sarahsiblini       384   0,0  0,0 33660992   2620   ??  S     2oct24   3:22.34 /usr/sbin/cfpref
+sarahsiblini       383   0,0  0,0 33633988   2680   ??  S     2oct24   5:25.31 /usr/sbin/distno
+root               374   0,0  0,0 33691056   2380   ??  Ss    2oct24   2:24.68 /System/Library/
+_fpsd              370   0,0  0,0 33661996   1728   ??  Ss    2oct24   0:09.82 /System/Library/
+_applepay          361   0,0  0,0 33691392    556   ??  Ss    2oct24   0:00.98 /usr/libexec/nfc
+root               358   0,0  0,0 33705264    452   ??  Ss    2oct24   0:01.95 /usr/sbin/system
+root               355   0,0  0,0 33659716    332   ??  Ss    2oct24   0:00.38 /System/Library/
+root               354   0,0  0,0 33660160    284   ??  Ss    2oct24   0:00.46 /System/Library/
+root               353   0,0  0,0 33689992    408   ??  Ss    2oct24   0:00.50 /System/Library/
+root               351   0,0  0,0 33694784    588   ??  Ss    2oct24   0:01.57 /usr/libexec/sym
+_securityagent     350   0,0  0,0 33631972    248   ??  S     2oct24   0:06.08 /usr/sbin/distno
+root               346   0,0  0,0 33692036    556   ??  S     2oct24   0:01.72 /usr/sbin/system
+_displaypolicyd    344   0,0  0,0 33662804    380   ??  Ss    2oct24   0:01.67 /usr/libexec/dis
+root               340   0,0  0,0 33691712    696   ??  Ss    2oct24   0:00.57 /System/Library/
+root               338   0,0  0,0 33691372   1300   ??  Ss    2oct24   0:04.30 /usr/libexec/wif
+_appleevents       337   0,0  0,0 33690688   2416   ??  Ss    2oct24   0:42.32 /System/Library/
+root               333   0,0  0,0 33659836    632   ??  Ss    2oct24   0:53.24 /usr/libexec/sys
+root               330   0,0  0,0 33691168    688   ??  Ss    2oct24   0:00.87 /usr/libexec/ane
+_windowserver      327   0,0  0,0 33631972    244   ??  S     2oct24   0:06.20 /usr/sbin/distno
+_locationd         324   0,0  0,1 33725516   9828   ??  Ss    2oct24   4:31.25 /usr/libexec/loc
+_accessoryupdater   315   0,0  0,0 33631972    244   ??  S     2oct24   0:06.33 /usr/sbin/distno
+_cmiodalassistants   312   0,0  0,0 33690540    696   ??  Ss    2oct24   0:03.00 /System/Library/
+_nsurlsessiond     311   0,0  0,0 33631972    248   ??  S     2oct24   0:06.55 /usr/sbin/distno
+root               309   0,0  0,0 33694472    740   ??  Ss    2oct24   0:01.01 /System/Library/
+_softwareupdate    308   0,0  0,0 33631972    248   ??  S     2oct24   0:06.95 /usr/sbin/distno
+_cmiodalassistants   306   0,0  0,0 33631972    244   ??  S     2oct24   0:06.93 /usr/sbin/distno
+root               303   0,0  0,0 33643248    240   ??  Ss    2oct24   0:01.93 /usr/libexec/the
+_spotlight         301   0,0  0,0 33631972    252   ??  S     2oct24   0:07.89 /usr/sbin/distno
+root               290   0,0  0,0 33659796   1164   ??  Ss    2oct24   0:02.96 /System/Library/
+_softwareupdate    286   0,0  0,1 33977532   6268   ??  Ss    2oct24   2:28.84 /System/Library/
+root               284   0,0  0,0 33697504    788   ??  Ss    2oct24   0:04.58 /usr/libexec/sea
+root               280   0,0  0,0 33692940    240   ??  Ss    2oct24   0:01.54 /System/Library/
+_locationd         276   0,0  0,0 33631972    252   ??  S     2oct24   0:09.10 /usr/sbin/distno
+root               275   0,0  0,0 33692160   1116   ??  Ss    2oct24   0:14.56 /System/Library/
+root               272   0,0  0,0 33659840    120   ??  Ss    2oct24   0:01.38 /usr/libexec/log
+root               239   0,0  0,0 33659604      8   ??  Ss    2oct24   0:00.18 /System/Library/
+root               238   0,0  0,0 33690504   1132   ??  Ss    2oct24   0:03.99 /usr/libexec/amf
+_coreaudiod        237   0,0  0,0 33691604    760   ??  Ss    2oct24   0:14.57 Core Audio Drive
+_cmiodalassistants   234   0,0  0,0 33691808    612   ??  Ss    2oct24   0:02.39 /System/Library/
+root               233   0,0  0,0 33689468    304   ??  Ss    2oct24   0:03.22 /usr/libexec/usb
+root               230   0,0  0,1 33707060  10184   ??  Ss    2oct24  11:23.65 /usr/libexec/air
+_coreaudiod        229   0,0  0,0 33631972    244   ??  S     2oct24   0:08.43 /usr/sbin/distno
+_nsurlsessiond     227   0,0  0,0 33710924   3640   ??  Ss    2oct24   0:37.79 /usr/libexec/nsu
+root               226   0,0  0,0 33659784    972   ??  Ss    2oct24   0:01.53 /usr/libexec/apf
+root               225   0,0  0,0 33659636    188   ??  Ss    2oct24   0:00.78 /System/Library/
+root               222   0,0  0,0 33690556    120   ??  Ss    2oct24   0:14.24 /usr/sbin/mDNSRe
+root               221   0,0  0,1 33697716   5592   ??  Ss    2oct24   0:30.20 /usr/libexec/lsd
+root               220   0,0  0,1 33703412   9288   ??  Ss    2oct24   3:51.63 /usr/libexec/mob
+root               219   0,0  0,0 33662604   1056   ??  Ss    2oct24   0:25.08 /System/Library/
+root               218   0,0  0,0 33660128   1372   ??  Ss    2oct24   0:44.45 /System/Library/
+root               216   0,0  0,0 33694592   1716   ??  Ss    2oct24   0:04.52 /usr/libexec/fin
+root               212   0,0  0,0 33663924    804   ??  Ss    2oct24   0:01.28 /usr/libexec/dis
+root               206   0,0  0,0 33690052    996   ??  Ss    2oct24   0:05.25 /usr/libexec/neh
+_analyticsd        196   0,0  0,0 33700072   4032   ??  Ss    2oct24   1:19.01 /System/Library/
+_coreaudiod        186   0,0  0,0 33707092   3060   ??  Ss    2oct24  25:09.72 /usr/sbin/coreau
+root               171   0,0  0,0 33631972    248   ??  S     2oct24   0:10.11 /usr/sbin/distno
+root               168   0,0  0,0 33692196   1640   ??  Ss    2oct24   0:09.17 /System/Library/
+root               165   0,0  0,1 33697688   7208   ??  Ss    2oct24  13:27.26 /usr/libexec/run
+root               163   0,0  0,0 33674548   1360   ??  Ss    2oct24   0:18.67 /System/Library/
+root               161   0,0  0,1 33695568   7356   ??  Ss    2oct24   3:04.09 /System/Library/
+root               159   0,0  0,0 33795272   3972   ??  Ss    2oct24  24:47.17 /usr/libexec/sys
+sarahsiblini       158   0,0  0,2 34369968  19284   ??  Ss    2oct24  13:31.28 /System/Library/
+root               155   0,0  0,1 33698608   6708   ??  Ss    2oct24  11:00.37 /System/Library/
+root               153   0,0  0,0 33660204   2456   ??  Ss    2oct24   2:21.94 /usr/sbin/cfpref
+root               152   0,0  0,0 33659684     16   ??  Ss    2oct24   0:00.25 /System/Library/
+root               151   0,0  0,0 33691120   1248   ??  Ss    2oct24   0:05.22 /usr/libexec/Air
+root               150   0,0  0,0 33691360   3592   ??  Ss    2oct24   5:17.66 /usr/libexec/cor
+root               149   0,0  0,0 33692692    580   ??  Ss    2oct24   0:03.82 /usr/libexec/san
+root               147   0,0  0,0 33659984   1840   ??  Ss    2oct24   4:12.63 /usr/sbin/notify
+root               144   0,0  0,0 33660140     88   ??  Ss    2oct24   0:00.05 /usr/sbin/Kernel
+root               143   0,0  0,0 33691168   1496   ??  Ss    2oct24   0:01.53 /System/Library/
+root               142   0,0  0,0 33659664    680   ??  Ss    2oct24   0:00.42 /System/Library/
+root               139   0,0  0,0 33660284    228   ??  Ss    2oct24   0:00.64 /System/Library/
+_distnote          138   0,0  0,0 33631972    752   ??  Ss    2oct24   1:43.37 /usr/sbin/distno
+root               136   0,0  0,1 33700676   7900   ??  Ss    2oct24   3:37.46 /usr/libexec/das
+root               134   0,0  0,0 33660208     56   ??  Ss    2oct24   0:00.09 autofsd
+root               130   0,0  0,0 33643180     40   ??  Ss    2oct24   0:00.07 auditd -l
+root               129   0,0  0,0 33692796   3156   ??  Ss    2oct24   0:18.10 /usr/sbin/securi
+_usbmuxd           128   0,0  0,0 33694628    544   ??  Ss    2oct24   0:04.11 /System/Library/
+_timed             127   0,0  0,0 33690456   2088   ??  Ss    2oct24   0:11.39 /usr/libexec/tim
+root               125   0,0  0,1 33709460   5588   ??  Ss    2oct24   0:44.11 /System/Library/
+root               124   0,0  0,1 33703656   6052   ??  Ss    2oct24   5:03.18 /usr/libexec/ope
+root               123   0,0  0,0 33651432      8   ??  Ss    2oct24   0:00.04 /usr/libexec/the
+root               120   0,0  0,0 33660748    648   ??  Ss    2oct24   0:23.68 /usr/sbin/syslog
+root               119   0,0  0,1 33712216   9680   ??  Ss    2oct24   8:11.66 /usr/libexec/cor
+root               116   0,0  0,0 33689440   1948   ??  Ss    2oct24   0:37.62 /usr/libexec/dis
+root               115   0,0  0,0 33697668    932   ??  Ss    2oct24   0:09.28 /usr/libexec/ker
+_iconservices      114   0,0  0,0 33690384    440   ??  Ss    2oct24   0:00.55 /System/Library/
+root               109   0,0  0,0 33660172   1124   ??  Ss    2oct24   0:10.33 /usr/libexec/wat
+root               106   0,0  0,0 33660232   1532   ??  Ss    2oct24   0:21.76 /usr/libexec/key
+root               104   0,0  0,0 33694904    260   ??  Ss    2oct24   0:01.77 /usr/libexec/rem
+root               100   0,0  0,1 33691588   4296   ??  Ss    2oct24   4:56.68 /System/Library/
+root                98   0,0  0,1 33695512   4224   ??  Ss    2oct24   1:42.40 /usr/libexec/con
+root                96   0,0  0,1 33704628   4856   ??  Ss    2oct24   9:07.37 /usr/sbin/system
+root                93   0,0  0,0 33693888   1392   ??  Ss    2oct24   0:15.80 /System/Library/
+root                92   0,0  0,0 33668392   2628   ??  Ss    2oct24   9:57.90 /System/Library/
+root                91   0,0  0,0 33659324    420   ??  Ss    2oct24   0:09.57 /System/Library/
+root                88   0,0  0,0 33692772   4008   ??  Ss    2oct24   2:02.68 /usr/libexec/Use
+root                87   0,0  0,2 33795408  14364   ??  Ss    2oct24  13:12.16 /usr/libexec/log
+root                 1   0,0  0,1 34151856  10684   ??  Ss    2oct24  17:36.61 /sbin/launchd
+root             23758   0,0  0,0 34132592   1232 s000  R+    4:46     0:00.00 ps aux
+root             23757   0,0  0,0        0      0   ??  Z     4:46     0:00.00 (ps)
+sarahsiblini     23732   0,0  0,5 1245431032  43368   ??  S     4:45     0:00.10 /Applications/Go
+sarahsiblini     23731   0,0  0,8 1247086248  64216   ??  S     4:45     0:00.23 /Applications/Go
+sarahsiblini     23730   0,0  0,8 1245439732  63976   ??  S     4:45     0:00.39 /Applications/Go
+sarahsiblini     23710   0,0  0,2 101086688  17464   ??  S     4:44     0:00.09 /Applications/Go
+sarahsiblini     23594   0,0  3,5 1245683540 296820   ??  S     4:37     0:15.42 /Applications/Go
+sarahsiblini     23399   0,0  0,2 33712348  14216   ??  Ss    4:28     0:00.15 /System/Library/
+sarahsiblini     23318   0,0  2,8 1247316560 231412   ??  S     4:25     0:22.11 /Applications/Go
+root             23309   0,0  0,0 34151500   3688 s000  Ss    4:25     0:00.02 login -pf sarahs
+sarahsiblini     23209   0,0  0,2 33722416  14612   ??  S     4:22     0:34.30 /System/Library/
+sarahsiblini     22983   0,0  3,2 1245564304 266740   ??  S     4:18     0:58.57 /Applications/Go
+sarahsiblini     20926   0,0  0,1 34194772   5012   ??  Ss    2:19     0:00.26 /System/Library/
+sarahsiblini     20727   0,0  3,9 1245763692 329752   ??  R     2:07     2:48.55 /Applications/Go
+sarahsiblini     20582   0,0  3,6 1245750456 298448   ??  S     1:58     6:41.73 /Applications/Go
+sarahsiblini     20579   0,0  1,9 1247300512 156508   ??  S     1:58     0:22.76 /Applications/Go
+sarahsiblini     20473   0,0  2,8 1245572164 233496   ??  S     1:54     0:30.26 /Applications/Go
+_netbios         20450   0,0  0,0 33662592   4156   ??  SNs   1:54     0:31.56 /usr/sbin/netbio
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+
+
+3 - sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % ps -e -o pid,comm | sort -n | head -n 4
+  PID COMM
+    1 /sbin/launchd
+   87 /usr/libexec/logd
+   88 /usr/libexec/UserEventAgent
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+
+
+4 - usr/sbin/netbio
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % launchctl list
+PID	Status	Label
+-	0	com.apple.SafariHistoryServiceAgent
+488	0	com.apple.progressd
+597	0	com.apple.cloudphotod
+445	0	com.apple.Finder
+534	0	com.apple.homed
+-	-9	com.apple.SafeEjectGPUAgent
+-	0	com.apple.quicklook
+-	0	com.apple.parentalcontrols.check
+544	0	com.apple.mediaremoteagent
+452	0	com.apple.FontWorker
+422	0	com.apple.bird
+-	0	com.apple.amp.mediasharingd
+-	0	com.apple.familycontrols.useragent
+-	0	com.apple.AssetCache.agent
+-	0	com.apple.GameController.gamecontrolleragentd
+-	0	com.apple.universalaccessAuthWarn
+-	0	com.apple.UserPictureSyncAgent
+410	0	com.apple.nsurlsessiond
+59039	-9	com.apple.devicecheckd
+-	-9	com.apple.corespotlightservice.04721132-1386-AE5B-B74D-34D712C8F8EC
+-	0	com.apple.syncservices.uihandler
+453	0	com.apple.iconservices.iconservicesagent
+584	0	com.apple.diagnosticextensionsd
+819	0	com.apple.SafariBookmarksSyncAgent
+23308	0	application.com.apple.Terminal.1152921500311988592.1152921500311988597
+3656	0	com.apple.LinkedNotesUIService
+-	-9	com.apple.ndoagent
+-	0	com.apple.bookassetd
+-	0	com.apple.ManagedClientAgent.agent
+4284	0	com.apple.localizationswitcherd
+-	0	com.apple.screensharing.agent
+575	0	com.apple.commerce
+-	0	com.apple.AddressBook.SourceSync
+-	0	com.apple.installerauthagent
+-	0	com.apple.languageassetd
+-	0	com.apple.familynotificationd
+561	0	com.apple.photolibraryd
+-	0	com.apple.xpc.otherbsd
+-	0	com.apple.sysdiagnose_agent
+4266	0	com.apple.tipsd
+-	0	com.apple.timezoneupdates.tznotify
+621	0	com.apple.TextInputMenuAgent
+-	0	com.apple.bluetoothUIServer
+773	0	com.apple.assistant_service
+-	0	com.apple.MRTa
+408	0	com.apple.CommCenter
+36747	0	com.apple.trustd.agent
+-	0	com.apple.MailServiceAgent
+-	0	com.apple.mdworker.mail
+-	0	com.apple.appkit.xpc.ColorSampler
+384	0	com.apple.cfprefsd.xpc.agent
+-	0	com.apple.coreimportd
+403	0	com.apple.TrustedPeersHelper
+-	0	com.apple.cvmsCompAgent3600_arm64_1
+-	0	com.apple.DataDetectorsLocalSources
+-	0	com.apple.unmountassistant.useragent
+1101	0	com.apple.keyboardservicesd
+491	0	com.apple.quicklook.ThumbnailsAgent
+820	0	com.apple.Safari.PasswordBreachAgent
+-	0	com.apple.csuseragent
+535	0	com.apple.ContextStoreAgent
+-	0	com.apple.AOSPushRelay
+-	0	com.apple.accessibility.AXVisualSupportAgent
+-	0	com.apple.xpc.loginitemregisterd
+1100	0	com.apple.applespell
+-	0	com.apple.coreservices.UASharedPasteboardProgressUI
+429	0	application.com.apple.TV.1152921500311956243.1152921500311956248
+-	0	com.apple.screensharing.menuextra
+9653	0	com.apple.warmd_agent
+-	0	com.apple.dt.xcodepreviewsapp
+-	0	com.apple.universalaccesscontrol
+1124	0	com.apple.Safari.SafeBrowsing.Service
+-	0	com.apple.findmymacmessenger
+-	0	com.apple.FilesystemUI
+-	0	com.apple.maps.destinationd
+418	0	com.apple.ScreenTimeAgent
+-	0	com.apple.pluginkit.pkreporter
+-	0	com.apple.systemprofiler
+465	0	com.apple.cloudd
+4283	0	com.apple.noticeboard.agent
+4928	0	com.apple.UserNotificationCenterAgent
+58527	-9	com.apple.cmfsyncagent
+-	0	com.apple.dt.CommandLineTools.installondemand
+-	0	com.apple.ATS.FontValidator
+620	0	com.apple.diagnostics_agent
+-	0	com.apple.appleseed.seedusaged
+-	0	com.apple.LocalAuthentication.UIAgent
+772	0	com.apple.ap.adprivacyd
+922	0	com.apple.ap.promotedcontentd
+-	0	com.apple.PhotoLibraryMigrationUtility.XPC
+-	-9	com.apple.apfsuseragent
+424	0	com.apple.networkserviceproxy
+443	0	com.apple.controlcenter
+601	0	com.apple.AMPLibraryAgent
+-	0	com.openssh.ssh-agent
+-	-9	com.apple.atsd
+-	-9	com.apple.tonelibraryd
+-	0	com.apple.WeatherService
+-	0	com.apple.CloudPhotosConfiguration
+-	0	com.apple.security.KeychainStasher
+469	0	com.apple.ctkd
+-	0	com.apple.package-script-service
+412	0	com.apple.secinitd
+1586	0	com.apple.speech.speechsynthesisd.x86_64
+4718	0	com.apple.contacts.donation-agent
+-	0	com.apple.ServicesUIAgent
+541	0	com.apple.synapse.contentlinkingd
+18269	0	com.microsoft.update.agent
+48715	-9	com.apple.XprotectFramework.PluginService
+-	0	com.apple.ctkbind
+-	0	com.apple.mediastream.mstreamd
+-	0	com.apple.alf.useragent
+521	0	com.apple.triald
+392	0	com.apple.tccd
+-	0	com.apple.nexusd
+511	0	com.apple.StatusKitAgent
+11702	0	application.com.microsoft.teams2.4803552.4803557.ADB530D5-6F3C-47A8-B4E5-5DC04F770667
+1884	0	com.apple.replayd
+519	0	com.apple.coreservices.uiagent
+8105	0	com.apple.icloud.searchpartyuseragent
+-	0	com.apple.AccessibilityVisualsAgent
+614	0	com.apple.Siri.agent
+-	0	com.apple.installd.user
+404	0	com.apple.akd
+492	0	com.apple.CallHistoryPluginHelper
+779	0	com.apple.storeaccountd
+-	0	com.apple.AddressBook.AssistantService
+-	0	com.apple.PIPAgent
+-	0	com.apple.mbfloagent
+44989	0	com.apple.printtool.agent
+16660	0	net.whatsapp.WhatsApp-sparkle-updater
+615	0	com.apple.askpermissiond
+1210	0	com.apple.USBAgent
+-	0	com.apple.ssinvitationagent
+-	0	com.apple.webinspectord
+-	0	com.valvesoftware.steamclean
+543	0	com.apple.avatarsd
+-	0	com.apple.speech.synthesisserver
+-	0	com.apple.WebKit.PluginAgent
+-	0	com.apple.storeuid
+-	0	com.apple.rcd
+-	0	com.apple.printuitool.agent
+-	0	com.apple.NVMeAgent
+-	0	com.apple.speech.speechdatainstallerd
+-	0	com.apple.AOSHeartbeat
+625	0	com.apple.CryptoTokenKit.ahp.agent
+-	0	com.apple.SafariNotificationAgent
+-	0	com.apple.coredatad
+23867	0	com.apple.remindd
+-	0	com.apple.appsleep
+475	0	com.apple.coreservices.useractivityd
+67038	0	com.apple.screencaptureui.agent
+-	0	com.apple.cvmsCompAgent3600_x86_64_1
+-	0	com.apple.netauth.user.auth
+943	0	com.apple.siri-distributed-evaluation
+451	0	com.apple.ViewBridgeAuxiliary
+-	0	com.apple.mbbackgrounduseragent
+644	0	com.valvesoftware.steam.ipctool
+-	0	com.apple.cvmsCompAgent_x86_64
+390	0	com.apple.lsd
+523	0	com.apple.siri.context.service
+407	0	com.apple.pluginkit.pkd
+-	0	com.apple.security.XPCTimeStampingService
+645	0	com.apple.cache_delete
+-	0	com.apple.symptomsd-diag.agent
+459	0	com.apple.AMPDeviceDiscoveryAgent
+-	0	com.apple.accessibility.dfrhud
+-	0	com.apple.CallHistorySyncHelper
+-	-9	com.apple.colorsync.useragent
+27151	0	application.com.microsoft.VSCode.4469360.4469366
+4290	0	com.apple.appleaccountd
+470	0	com.apple.parsecd
+944	0	com.apple.mlruntimed
+442	0	com.apple.Dock.agent
+-	0	com.apple.parsec-fbf
+426	0	com.apple.dmd
+439	0	application.com.apple.MobileSMS.1152921500311914986.1152921500311914995
+52373	-9	com.apple.transparencyd
+406	0	com.apple.AppSSOAgent
+8241	0	com.apple.mbuseragent
+48837	-9	com.apple.security.cloudkeychainproxy3
+386	0	com.apple.UserEventAgent-Aqua
+468	0	com.apple.followupd
+413	0	com.apple.identityservicesd
+502	0	com.apple.telephonyutilities.callservicesd
+-	0	com.apple.DwellControl
+48714	-9	com.apple.XProtect.agent.scan
+3543	0	com.apple.security.DiskUnmountWatcher
+559	0	com.apple.CoreLocationAgent
+396	0	com.apple.SecureBackupDaemon
+-	0	com.apple.security.agent
+-	0	com.apple.cfnetwork.AuthBrokerAgent
+-	0	com.apple.multimodalsearchd
+1887	0	com.apple.storedownloadd
+-	0	com.apple.SpacesTouchBarAgent.app
+619	0	com.apple.BTServer.cloudpairing
+4400	0	com.apple.coreparsec.silhouette
+405	0	com.apple.coreservices.sharedfilelistd
+435	0	com.apple.pboard
+430	0	application.com.apple.Music.1152921500311916944.1152921500311916949
+-	0	com.apple.nowplayingtouchui
+-	0	com.apple.MobileAccessoryUpdater.fudHelperAgent
+91798	-9	com.apple.reversetemplated
+-	-9	com.apple.SafariCloudHistoryPushAgent
+1089	0	com.apple.BTServer.le.agent
+-	0	com.apple.AskPermissionUI
+-	0	com.apple.thermaltrap
+409	0	com.apple.rapportd
+665	0	com.apple.SoftwareUpdateNotificationManager
+-	0	com.apple.accounts.dom
+-	0	com.apple.metadata.mdflagwriter
+86911	-9	com.apple.DictionaryServiceHelper
+-	0	com.apple.mdworker.shared
+-	0	com.apple.mdworker.single.x86_64
+-	0	com.apple.usermanagerhelper
+-	0	com.apple.installandsetup.migrationhelper.user
+416	0	com.apple.containermanagerd
+-	-9	com.apple.SafeEjectGPUService
+529	0	com.apple.imdpersistence.IMDPersistenceAgent
+-	0	com.apple.TrustEvaluationAgent
+-	0	com.apple.Notes.datastore
+421	0	application.com.google.Chrome.119409.4867088
+-	0	com.apple.preference.displays.MirrorDisplays
+555	0	com.apple.neagent.878568F8-CCE5-4157-8315-22F20DC8FB0A
+400	0	com.apple.accountsd
+552	0	com.apple.cdpd
+14409	0	com.apple.routined
+438	0	application.com.apple.mail.1152921500311906432.1152921500311906437
+423	0	com.apple.siriactionsd
+-	0	com.apple.KeyboardAccessAgent
+462	0	com.apple.BiomeAgent
+-	0	com.apple.storelegacy
+1430	0	com.apple.OSDUIHelper
+527	0	com.apple.audio.AudioComponentRegistrar
+580	0	com.apple.AssetCacheLocatorService
+-	0	com.apple.DiagnosticsReporter
+414	0	com.apple.lockoutagent
+902	0	com.apple.locationmenu
+-	0	com.apple.videosubscriptionsd
+498	0	com.apple.pbs
+446	0	com.apple.notificationcenterui.agent
+553	0	com.apple.protectedcloudstorage.protectedcloudkeysyncing
+560	0	com.apple.imklaunchagent
+-	0	com.apple.imcore.imtransferagent
+-	0	com.apple.btsa
+542	0	com.apple.icdd
+-	0	com.apple.ckdiscretionaryd
+945	0	com.apple.EscrowSecurityAlert
+514	0	com.apple.metadata.mdwrite
+-	0	com.apple.loginwindow.LWWeeklyMessageTracer
+16661	0	net.whatsapp.WhatsApp-sparkle-progress
+455	0	com.apple.CalendarAgent
+-	0	com.apple.securityuploadd
+-	0	com.apple.RapportUIAgent
+427	0	com.apple.siriknowledged
+-	0	com.apple.powerchime
+512	0	com.apple.sharingd
+39122	0	com.apple.iCloudUserNotificationsd
+1104	0	com.apple.metrickitd
+-	0	com.apple.storeassetd
+466	0	com.apple.familycircled
+-	0	com.apple.FontRegistryUIAgent
+-	0	com.apple.RemoteManagementAgent
+631	0	com.apple.TextInputSwitcher
+-	-9	com.apple.AMPArtworkAgent
+525	0	com.apple.imagent
+-	-9	com.apple.sidecar-relay
+23209	0	com.apple.photoanalysisd
+-	0	com.apple.syncservices.SyncServer
+1404	0	com.apple.imautomatichistorydeletionagent
+444	0	com.apple.SystemUIServer.agent
+-	0	com.apple.PackageUIKit.InstallStatus
+-	0	com.apple.ATS.FontValidatorConduit
+441	0	com.apple.talagent
+568	0	com.apple.suggestd
+-	0	com.apple.navd
+-	0	com.apple.RemoteDesktop.agent
+563	0	com.apple.iCloudNotificationAgent
+623	0	com.apple.amsaccountsd
+-	0	com.apple.VoiceOver
+-	0	com.apple.AssistiveControl
+556	0	com.apple.icloud.fmfd
+-	0	com.apple.mdworker.single.arm64
+471	0	com.apple.FileProvider
+397	0	com.apple.secd
+456	0	com.apple.hiservices-xpcservice
+-	-9	com.apple.BKAgentService
+-	0	com.apple.cvmsCompAgent_x86_64_1
+23914	0	com.apple.mdworker.shared.08000000-0300-0000-0000-000000000000
+23904	0	com.apple.mdworker.shared.04000000-0500-0000-0000-000000000000
+420	0	com.apple.assistantd
+486	0	com.apple.studentd
+-	0	com.apple.FollowUpUI
+505	0	com.apple.videoconference.camera
+-	0	com.apple.corespotlightservice
+520	0	com.apple.uikitsystemapp
+-	0	com.apple.controlstrip
+41121	0	application.de.appsolute.MAMP.5190539.5190544
+18585	0	com.apple.mediaanalysisd
+-	0	com.apple.DiskArbitrationAgent
+-	0	com.apple.assessmentagent
+-	0	com.apple.exchange.exchangesyncd
+-	0	com.apple.testmanagerd
+-	0	com.apple.dt.AutomationModeUI
+499	0	com.apple.scopedbookmarksagent.xpc
+570	0	com.apple.ensemble
+506	0	com.apple.ReportCrash
+776	0	com.apple.biomesyncd
+578	0	com.apple.UsageTrackingAgent
+-	0	com.apple.email.maild
+440	0	com.apple.donotdisturbd
+-	0	com.apple.menuextra.battery.helper
+-	0	com.apple.appleseed.seedusaged.postinstall
+4263	0	com.apple.Maps.mapspushd
+-	0	com.apple.voicememod
+-	0	com.apple.gamed
+-	0	com.apple.STMUIHelper
+391	0	com.apple.knowledge-agent
+-	0	com.apple.midiserver
+401	0	com.apple.backgroundtaskmanagementagent
+22413	0	application.net.whatsapp.WhatsApp.4919480.4919486
+76823	0	com.apple.mobiledeviceupdater
+-	0	com.apple.helpd
+-	0	com.apple.quicklook.ui.helper
+530	0	com.apple.wifi.WiFiAgent
+-	0	com.apple.screensharing.MessagesAgent
+-	0	com.apple.diskspaced
+-	0	com.google.GoogleUpdater.wake
+37395	0	com.apple.passd
+-	0	com.apple.DictationIM
+47352	-9	com.apple.sociallayerd
+-	0	com.apple.mdmclient.agent
+23871	0	com.apple.iCloudHelper
+-	0	com.apple.CharacterPicker.FileService
+23916	0	com.apple.mdworker.shared.09000000-0700-0000-0000-000000000000
+-	0	com.apple.MessageUIMacHelperService
+-	0	com.apple.cvmsCompAgent3425AMD_x86_64
+-	0	com.apple.security.XPCKeychainSandboxCheck
+-	-9	com.apple.podcasts.PodcastContentService
+482	0	com.apple.CoreAuthentication.agent
+495	0	com.apple.syncdefaultsd
+-	0	com.apple.sidecar-display-agent
+-	0	com.apple.accessibility.heard
+593	0	com.apple.corespeechd
+-	0	com.apple.AMPSystemPlayerAgent
+393	0	com.apple.itunescloudd
+-	0	com.apple.scrod
+496	0	com.apple.spindump_agent
+-	0	com.apple.AquaAppearanceHelper
+-	0	com.apple.AuthenticationServicesCore.AuthenticationServicesAgent
+-	0	com.apple.cvmsCompAgent_arm64
+-	0	com.apple.bookdatastored
+550	0	com.apple.security.keychain-circle-notification
+-	0	com.apple.appstorecomponentsd
+596	0	com.apple.icloud.findmydeviced.findmydevice-user-agent
+-	0	com.apple.XProtect.agent.scan.startup
+715	0	com.apple.amsengagementd
+-	0	com.apple.AirPortBaseStationAgent
+822	0	com.apple.proactiveeventtrackerd
+4408	0	com.apple.proactived
+-	0	com.apple.universalaccessd
+-	0	com.apple.accessibility.MotionTrackingAgent
+-	0	com.apple.neagent
+83121	-9	com.apple.SafariLaunchAgent
+-	0	com.apple.idsfoundation.IDSRemoteURLConnectionAgent
+711	0	com.apple.recentsd
+557	0	com.apple.WiFiVelocityAgent
+415	0	com.apple.usernoted
+1885	0	com.apple.geodMachServiceBridge
+-	-9	com.apple.translationd
+-	0	com.apple.AddressBook.abd
+-	0	com.apple.ScreenReaderUIServer
+22395	0	com.apple.newsd
+457	0	com.apple.contactsd
+11711	0	com.microsoft.teams2.respawn
+425	0	com.apple.swcd
+618	0	com.apple.AirPlayUIAgent
+-	0	com.apple.cvmsCompAgent_arm64_1
+-	0	com.apple.dt.previewsd
+-	0	com.apple.shazamd
+528	0	com.apple.corespotlightd
+-	0	com.apple.netauth.user.gui
+-	0	com.apple.watchlistd
+449	0	com.apple.xtyped
+-	0	com.apple.TMHelperAgent
+37380	0	application.com.apple.Safari.3967223.3969138
+464	0	com.apple.Spotlight
+918	0	com.apple.appstoreagent
+-	0	com.apple.AMPDevicesAgent
+1121	0	com.apple.accessibility.mediaaccessibilityd
+-	0	com.apple.cvmsCompAgent3425AMD_x86_64_1
+763	0	com.apple.mdworker.sizing
+-	0	com.apple.SpeechRecognitionCore.brokerd
+566	0	com.apple.metadata.mdbulkimport
+-	0	com.apple.iokit.IOServiceAuthorizeAgent
+-	0	com.apple.cvmsCompAgent3600_arm64
+37381	0	com.apple.Safari.History
+394	0	com.apple.carboncore.csnameddata
+-	0	com.apple.cvmsCompAgent3600_x86_64
+-	0	com.apple.speech.speechsynthesisd.arm64
+-	0	com.apple.CoreRoutine.helperservice
+383	0	com.apple.distnoted.xpc.agent
+513	0	com.apple.geod
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+5 -
+ sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % ls /Library/LaunchAgents /Library/LaunchDaemons ~/Library/LaunchAgents | sed 's/.plist$//' | sort
+/Library/LaunchAgents:
+/Library/LaunchDaemons:
+/Users/sarahsiblini/Library/LaunchAgents:
+com.google.GoogleUpdater.wake
+com.google.keystone.agent
+com.google.keystone.xpcservice
+com.microsoft.autoupdate.helper
+com.microsoft.update.agent
+com.valvesoftware.steamclean
+de.appsolute.mampprohelper
+org.wireshark.ChmodBPF
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ %
+
+6 - 
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % system_profiler SPHardwareDataType | grep "Memory"
+free_memory=$(vm_stat | grep "Pages free" | awk '{print $3}')
+total_free_memory=$((free_memory * 4096 / 1024 / 1024))
+echo "RAM libre: $total_free_memory Mo"
+Memory: 8 GB
+RAM libre: 152.30859375 Mo
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+7 -
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % top -l 1 -s 0 | grep "CPU usage"
+CPU usage: 10.0% user, 24.65% sys, 65.34% idle 
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+8 - 
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk0s1
+   2:                 Apple_APFS ⁨Container disk1⁩         121.1 GB   disk0s2
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +121.1 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume ⁨S - Données⁩             43.4 GB    disk1s1
+   2:                APFS Volume ⁨Preboot⁩                 360.2 MB   disk1s2
+   3:                APFS Volume ⁨Recovery⁩                1.1 GB     disk1s3
+   4:                APFS Volume ⁨VM⁩                      3.2 GB     disk1s4
+   5:                APFS Volume ⁨S⁩                       15.4 GB    disk1s5
+   6:              APFS Snapshot ⁨com.apple.os.update-...⁩ 15.4 GB    disk1s5s1
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            MySQL Workbench com... +314.6 MB   disk2
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            MySQL Workbench com... +314.6 MB   disk3
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +277.3 MB   disk4
+   1:                  Apple_HFS ⁨DBeaver Community⁩       277.3 MB   disk4s1
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % for disk in $(diskutil list | grep '^/dev/disk' | awk '{print $1}'); do
+  echo "Disque: $disk";
+  diskModel=$(diskutil info $disk | grep 'Device Model:' | awk -F ': ' '{print $2}');
+  diskSize=$(diskutil info $disk | grep 'Disk Size:' | awk -F ': ' '{print $2}');
+  echo "Modèle: $diskModel";
+  echo "Taille: $diskSize";
+  echo "";
+done
+Disque: /dev/disk0
+Modèle: 
+Taille:                 121.3 GB (121332826112 Bytes) (exactly 236978176 512-Byte-Units)
+Disque: /dev/disk1
+Modèle: 
+Taille:                 121.1 GB (121123069952 Bytes) (exactly 236568496 512-Byte-Units)
+Disque: /dev/disk2
+Modèle: 
+Taille:                 314.6 MB (314572800 Bytes) (exactly 614400 512-Byte-Units)
+Disque: /dev/disk3
+Modèle: 
+Taille:                 314.6 MB (314572800 Bytes) (exactly 614400 512-Byte-Units)
+Disque: /dev/disk4
+Modèle: 
+Taille:                 277.3 MB (277348352 Bytes) (exactly 541696 512-Byte-Units)
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ %
+
+9-
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % diskutil list
+/dev/disk0 (internal, physical):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        *121.3 GB   disk0
+   1:                        EFI ⁨EFI⁩                     209.7 MB   disk0s1
+   2:                 Apple_APFS ⁨Container disk1⁩         121.1 GB   disk0s2
+/dev/disk1 (synthesized):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      APFS Container Scheme -                      +121.1 GB   disk1
+                                 Physical Store disk0s2
+   1:                APFS Volume ⁨S - Données⁩             43.4 GB    disk1s1
+   2:                APFS Volume ⁨Preboot⁩                 360.2 MB   disk1s2
+   3:                APFS Volume ⁨Recovery⁩                1.1 GB     disk1s3
+   4:                APFS Volume ⁨VM⁩                      3.2 GB     disk1s4
+   5:                APFS Volume ⁨S⁩                       15.4 GB    disk1s5
+   6:              APFS Snapshot ⁨com.apple.os.update-...⁩ 15.4 GB    disk1s5s1
+/dev/disk2 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            MySQL Workbench com... +314.6 MB   disk2
+/dev/disk3 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:                            MySQL Workbench com... +314.6 MB   disk3
+/dev/disk4 (disk image):
+   #:                       TYPE NAME                    SIZE       IDENTIFIER
+   0:      GUID_partition_scheme                        +277.3 MB   disk4
+   1:                  Apple_HFS ⁨DBeaver Community⁩       277.3 MB   disk4s1
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % for disk in $(diskutil list | grep '^/dev/disk' | awk '{print $1}'); do
+  echo "Partition: $disk";
+  diskName=$(diskutil info $disk | grep 'Device Name:' | awk -F ': ' '{print $2}');
+  diskSize=$(diskutil info $disk | grep 'Disk Size:' | awk -F ': ' '{print $2}');
+  diskType=$(diskutil info $disk | grep 'Type (Bundle):' | awk -F ': ' '{print $2}');
+  echo "Nom: $diskName";
+  echo "Taille: $diskSize";
+  echo "Type: $diskType";
+  echo "";
+done
+Partition: /dev/disk0
+Nom: 
+Taille:                 121.3 GB (121332826112 Bytes) (exactly 236978176 512-Byte-Units)
+Type: 
+Partition: /dev/disk1
+Nom: 
+Taille:                 121.1 GB (121123069952 Bytes) (exactly 236568496 512-Byte-Units)
+Type: 
+Partition: /dev/disk2
+Nom: 
+Taille:                 314.6 MB (314572800 Bytes) (exactly 614400 512-Byte-Units)
+Type:             hfs
+Partition: /dev/disk3
+Nom: 
+Taille:                 314.6 MB (314572800 Bytes) (exactly 614400 512-Byte-Units)
+Type:             hfs
+Partition: /dev/disk4
+Nom: 
+Taille:                 277.3 MB (277348352 Bytes) (exactly 541696 512-Byte-Units)
+Type: 
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+10 - sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % df -h /
+Filesystem       Size   Used  Avail Capacity iused     ifree %iused  Mounted on
+/dev/disk1s5s1  113Gi   14Gi   54Gi    22%  502388 561558280    0%   /
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+
+IV -
+1 -
+ sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % ifconfig | awk '/en[0-9]+:/{iface=$1} /inet /{print iface, $2}'
+127.0.0.1
+en0: 10.3.220.92
+2 -
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % netstat -anp tcp | grep ESTABLISHED
+tcp4       0      0  10.3.220.92.62328      34.202.201.250.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62324      89.207.16.146.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62319      151.101.194.49.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62318      172.64.146.217.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62316      104.18.38.76.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62308      82.145.213.8.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62307      184.51.142.133.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62304      13.32.145.38.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62300      37.230.131.22.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62293      35.214.199.88.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62291      172.240.45.96.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62289      35.214.136.108.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62287      185.184.8.90.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62275      154.57.158.116.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62271      151.101.194.132.443    ESTABLISHED
+tcp4       0      0  10.3.220.92.62270      178.250.1.11.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62269      104.22.54.206.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62268      76.223.111.18.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62266      35.210.243.200.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62265      172.217.20.161.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62264      18.164.52.3.443        ESTABLISHED
+tcp4       0      0  10.3.220.92.62263      157.90.0.38.443        ESTABLISHED
+tcp4       0      0  10.3.220.92.62254      35.244.174.68.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62253      35.214.241.248.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62245      3.165.113.98.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62243      216.239.32.21.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62242      35.214.136.108.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62241      95.101.134.97.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62240      95.101.134.97.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62237      151.101.2.132.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62233      185.64.190.77.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62227      104.18.31.80.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62222      18.155.129.68.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62221      52.222.169.76.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62220      172.67.38.106.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62218      52.84.174.111.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62217      3.162.36.191.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62213      95.100.252.209.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62211      13.33.187.21.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62208      151.101.2.132.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62206      3.164.163.34.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62204      18.245.175.43.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62203      95.101.134.209.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62202      2.18.136.36.443        ESTABLISHED
+tcp4       0      0  10.3.220.92.62201      3.165.118.121.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62198      18.245.175.81.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62197      18.245.175.43.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.62195      2.18.136.36.443        ESTABLISHED
+tcp4       0      0  10.3.220.92.62192      2.18.141.187.443       ESTABLISHED
+tcp4       0      0  10.3.220.92.62184      64.233.166.121.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.62183      104.18.40.188.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.61976      172.65.251.78.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.61766      162.159.134.234.443    ESTABLISHED
+tcp4       0      0  10.3.220.92.61349      52.112.100.58.443      ESTABLISHED
+tcp4       0      0  10.3.220.92.61348      52.123.134.240.443     ESTABLISHED
+tcp4       0      0  10.3.220.92.61338      64.233.167.188.5228    ESTABLISHED
+tcp4       0      0  192.168.0.14.60541     52.123.145.4.443       ESTABLISHED
+tcp6       0      0  fe80::db5b:5c86:.1034  fe80::28f4:5335:.1025  ESTABLISHED
+tcp6       0      0  fe80::db5b:5c86:.1024  fe80::28f4:5335:.1024  ESTABLISHED
+tcp4       0      0  10.3.220.92.63201      163.70.128.61.5222     ESTABLISHED
+tcp4       0      0  10.3.220.92.62913      17.188.185.134.5223    ESTABLISHED
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % lsof -iTCP -sTCP:ESTABLISHED -n
+COMMAND     PID         USER   FD   TYPE             DEVICE SIZE/OFF NODE NAME
+identitys   413 sarahsiblini   43u  IPv6 0xdd24ba84fa29f74f      0t0  TCP [fe80:e::db5b:5c86:550b:5a27]:1024->[fe80:e::28f4:5335:76a0:d69d]:1024 (ESTABLISHED)
+identitys   413 sarahsiblini   50u  IPv6 0xdd24ba84fa29c64f      0t0  TCP [fe80:e::db5b:5c86:550b:5a27]:activesync->[fe80:e::28f4:5335:76a0:d69d]:blackjack (ESTABLISHED)
+identitys   413 sarahsiblini   51u  IPv6 0xdd24ba84fa29c64f      0t0  TCP [fe80:e::db5b:5c86:550b:5a27]:activesync->[fe80:e::28f4:5335:76a0:d69d]:blackjack (ESTABLISHED)
+Google      606 sarahsiblini   25u  IPv4 0xdd24ba7b62c53307      0t0  TCP 10.3.220.92:62197->18.245.175.43:https (ESTABLISHED)
+Google      606 sarahsiblini   29u  IPv4 0xdd24ba7b62c36307      0t0  TCP 10.3.220.92:62195->2.18.136.36:https (ESTABLISHED)
+Google      606 sarahsiblini   30u  IPv4 0xdd24ba7b63b05857      0t0  TCP 10.3.220.92:61338->64.233.167.188:5228 (ESTABLISHED)
+Google      606 sarahsiblini   31u  IPv4 0xdd24ba7b63be3daf      0t0  TCP 10.3.220.92:61766->162.159.134.234:https (ESTABLISHED)
+Google      606 sarahsiblini   32u  IPv4 0xdd24ba7b63b86daf      0t0  TCP 10.3.220.92:62328->34.202.201.250:https (ESTABLISHED)
+Google      606 sarahsiblini   35u  IPv4 0xdd24ba7b62c54857      0t0  TCP 10.3.220.92:61976->172.65.251.78:https (ESTABLISHED)
+Google      606 sarahsiblini   40u  IPv4 0xdd24ba7b62c44307      0t0  TCP 10.3.220.92:62184->64.233.166.121:https (ESTABLISHED)
+Google      606 sarahsiblini   41u  IPv4 0xdd24ba7b63b3c857      0t0  TCP 10.3.220.92:62270->178.250.1.11:https (ESTABLISHED)
+Google      606 sarahsiblini   42u  IPv4 0xdd24ba7b63b04daf      0t0  TCP 10.3.220.92:62202->2.18.136.36:https (ESTABLISHED)
+Google      606 sarahsiblini   49u  IPv4 0xdd24ba7b62c37857      0t0  TCP 10.3.220.92:62192->2.18.141.187:https (ESTABLISHED)
+Google      606 sarahsiblini   50u  IPv4 0xdd24ba7b62c53daf      0t0  TCP 10.3.220.92:62198->18.245.175.81:https (ESTABLISHED)
+Google      606 sarahsiblini   55u  IPv4 0xdd24ba7b63b85857      0t0  TCP 10.3.220.92:62203->95.101.134.209:https (ESTABLISHED)
+Google      606 sarahsiblini   57u  IPv4 0xdd24ba7b63b04307      0t0  TCP 10.3.220.92:62201->3.165.118.121:https (ESTABLISHED)
+Google      606 sarahsiblini   58u  IPv4 0xdd24ba7b63b84307      0t0  TCP 10.3.220.92:62204->18.245.175.43:https (ESTABLISHED)
+Google      606 sarahsiblini   59u  IPv4 0xdd24ba7b6347e307      0t0  TCP 10.3.220.92:62211->13.33.187.21:https (ESTABLISHED)
+Google      606 sarahsiblini   60u  IPv4 0xdd24ba7b63ae8857      0t0  TCP 10.3.220.92:62266->35.210.243.200:https (ESTABLISHED)
+Google      606 sarahsiblini   63u  IPv4 0xdd24ba7b62c51857      0t0  TCP 10.3.220.92:62206->3.164.163.34:https (ESTABLISHED)
+Google      606 sarahsiblini   69u  IPv4 0xdd24ba7b6347f857      0t0  TCP 10.3.220.92:62213->95.100.252.209:https (ESTABLISHED)
+Google      606 sarahsiblini   70u  IPv4 0xdd24ba7b63b89307      0t0  TCP 10.3.220.92:62208->151.101.2.132:https (ESTABLISHED)
+Google      606 sarahsiblini   82u  IPv4 0xdd24ba7b62c4b857      0t0  TCP 10.3.220.92:62217->3.162.36.191:https (ESTABLISHED)
+Google      606 sarahsiblini   87u  IPv4 0xdd24ba7b62c4a307      0t0  TCP 10.3.220.92:62218->52.84.174.111:https (ESTABLISHED)
+Google      606 sarahsiblini   88u  IPv4 0xdd24ba7b63b6bdaf      0t0  TCP 10.3.220.92:62222->18.155.129.68:https (ESTABLISHED)
+Google      606 sarahsiblini   89u  IPv4 0xdd24ba7b62c32daf      0t0  TCP 10.3.220.92:62233->185.64.190.77:https (ESTABLISHED)
+Google      606 sarahsiblini   92u  IPv4 0xdd24ba7b63b6b307      0t0  TCP 10.3.220.92:62220->172.67.38.106:https (ESTABLISHED)
+Google      606 sarahsiblini   93u  IPv4 0xdd24ba7b63b6c857      0t0  TCP 10.3.220.92:62221->52.222.169.76:https (ESTABLISHED)
+Google      606 sarahsiblini   96u  IPv4 0xdd24ba7b63adb307      0t0  TCP 10.3.220.92:62227->104.18.31.80:https (ESTABLISHED)
+Google      606 sarahsiblini  105u  IPv4 0xdd24ba7b63ad8857      0t0  TCP 10.3.220.92:62237->151.101.2.132:https (ESTABLISHED)
+Google      606 sarahsiblini  107u  IPv4 0xdd24ba7b63b09307      0t0  TCP 10.3.220.92:62243->216.239.32.21:https (ESTABLISHED)
+Google      606 sarahsiblini  109u  IPv4 0xdd24ba7b63b06307      0t0  TCP 10.3.220.92:62245->3.165.113.98:https (ESTABLISHED)
+Google      606 sarahsiblini  111u  IPv4 0xdd24ba7b63af3857      0t0  TCP 10.3.220.92:62240->95.101.134.97:https (ESTABLISHED)
+Google      606 sarahsiblini  113u  IPv4 0xdd24ba7b63b0a857      0t0  TCP 10.3.220.92:62241->95.101.134.97:https (ESTABLISHED)
+Google      606 sarahsiblini  125u  IPv4 0xdd24ba7b63b09daf      0t0  TCP 10.3.220.92:62242->35.214.136.108:https (ESTABLISHED)
+Google      606 sarahsiblini  133u  IPv4 0xdd24ba7b63b0fdaf      0t0  TCP 10.3.220.92:62253->35.214.241.248:https (ESTABLISHED)
+Google      606 sarahsiblini  139u  IPv4 0xdd24ba7b63b10857      0t0  TCP 10.3.220.92:62254->35.244.174.68:https (ESTABLISHED)
+Google      606 sarahsiblini  144u  IPv4 0xdd24ba7b634a4857      0t0  TCP 10.3.220.92:62263->157.90.0.38:https (ESTABLISHED)
+Google      606 sarahsiblini  149u  IPv4 0xdd24ba7b634a3307      0t0  TCP 10.3.220.92:62264->18.164.52.3:https (ESTABLISHED)
+Google      606 sarahsiblini  150u  IPv4 0xdd24ba7b63ae7daf      0t0  TCP 10.3.220.92:62268->76.223.111.18:https (ESTABLISHED)
+Google      606 sarahsiblini  151u  IPv4 0xdd24ba7b63b63daf      0t0  TCP 10.3.220.92:62265->172.217.20.161:https (ESTABLISHED)
+Google      606 sarahsiblini  159u  IPv4 0xdd24ba7b63b3b307      0t0  TCP 10.3.220.92:62271->151.101.194.132:https (ESTABLISHED)
+Google      606 sarahsiblini  161u  IPv4 0xdd24ba7b6349b307      0t0  TCP 10.3.220.92:62275->154.57.158.116:https (ESTABLISHED)
+Google      606 sarahsiblini  162u  IPv4 0xdd24ba7b63b3bdaf      0t0  TCP 10.3.220.92:62269->104.22.54.206:https (ESTABLISHED)
+Google      606 sarahsiblini  165u  IPv4 0xdd24ba7b63b42857      0t0  TCP 10.3.220.92:62293->35.214.199.88:https (ESTABLISHED)
+Google      606 sarahsiblini  179u  IPv4 0xdd24ba7b63b91857      0t0  TCP 10.3.220.92:62289->35.214.136.108:https (ESTABLISHED)
+Google      606 sarahsiblini  182u  IPv4 0xdd24ba7b63b18daf      0t0  TCP 10.3.220.92:62316->104.18.38.76:https (ESTABLISHED)
+Google      606 sarahsiblini  183u  IPv4 0xdd24ba7b63b90daf      0t0  TCP 10.3.220.92:62291->172.240.45.96:https (ESTABLISHED)
+Google      606 sarahsiblini  187u  IPv4 0xdd24ba7b6348c307      0t0  TCP 10.3.220.92:62324->89.207.16.146:https (ESTABLISHED)
+Google      606 sarahsiblini  189u  IPv4 0xdd24ba7b63ada857      0t0  TCP 10.3.220.92:62287->185.184.8.90:https (ESTABLISHED)
+Google      606 sarahsiblini  193u  IPv4 0xdd24ba7b63b00857      0t0  TCP 10.3.220.92:62307->184.51.142.133:https (ESTABLISHED)
+Google      606 sarahsiblini  200u  IPv4 0xdd24ba7b63b3e857      0t0  TCP 10.3.220.92:62300->37.230.131.22:https (ESTABLISHED)
+Google      606 sarahsiblini  205u  IPv4 0xdd24ba7b63b87857      0t0  TCP 10.3.220.92:62304->13.32.145.38:https (ESTABLISHED)
+Google      606 sarahsiblini  211u  IPv4 0xdd24ba7b63aff307      0t0  TCP 10.3.220.92:62308->82.145.213.8:https (ESTABLISHED)
+Google      606 sarahsiblini  214u  IPv4 0xdd24ba7b63b69daf      0t0  TCP 10.3.220.92:62318->172.64.146.217:https (ESTABLISHED)
+Google      606 sarahsiblini  215u  IPv4 0xdd24ba7b63b69307      0t0  TCP 10.3.220.92:62319->151.101.194.49:https (ESTABLISHED)
+MSTeams   11702 sarahsiblini   59u  IPv4 0xdd24ba7b63b8e307      0t0  TCP 10.3.220.92:61349->52.112.100.58:https (ESTABLISHED)
+MSTeams   11702 sarahsiblini   68u  IPv4 0xdd24ba7b63b84daf      0t0  TCP 192.168.0.14:60541->52.123.145.4:https (ESTABLISHED)
+Microsoft 11723 sarahsiblini   25u  IPv4 0xdd24ba7b63b8a857      0t0  TCP 10.3.220.92:61348->52.123.134.240:https (ESTABLISHED)
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
+
+V -
+
+1 - 
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % dscl . list /Users
+_accessoryupdater
+_amavisd
+_analyticsd
+_appinstalld
+_appleevents
+_applepay
+_appowner
+_appserver
+_appstore
+_ard
+_assetcache
+_astris
+_atsserver
+_avbdeviced
+_calendar
+_captiveagent
+_ces
+_clamav
+_cmiodalassistants
+_coreaudiod
+_coremediaiod
+_coreml
+_ctkd
+_cvmsroot
+_cvs
+_cyrus
+_darwindaemon
+_datadetectors
+_demod
+_devdocs
+_devicemgr
+_diskimagesiod
+_displaypolicyd
+_distnote
+_dovecot
+_dovenull
+_dpaudio
+_driverkit
+_eppc
+_findmydevice
+_fpsd
+_ftp
+_gamecontrollerd
+_geod
+_hidd
+_iconservices
+_installassistant
+_installcoordinationd
+_installer
+_jabber
+_kadmin_admin
+_kadmin_changepw
+_knowledgegraphd
+_krb_anonymous
+_krb_changepw
+_krb_kadmin
+_krb_kerberos
+_krb_krbtgt
+_krbfast
+_krbtgt
+_launchservicesd
+_lda
+_locationd
+_logd
+_lp
+_mailman
+_mbsetupuser
+_mcxalr
+_mdnsresponder
+_mobileasset
+_mysql
+_nearbyd
+_netbios
+_netstatistics
+_networkd
+_notification_proxy
+_nsurlsessiond
+_oahd
+_ondemand
+_postfix
+_postgres
+_qtss
+_reportmemoryexception
+_rmd
+_sandbox
+_screensaver
+_scsd
+_securityagent
+_sntpd
+_softwareupdate
+_spotlight
+_sshd
+_svn
+_taskgated
+_teamsserver
+_timed
+_timezone
+_tokend
+_trustd
+_trustevaluationagent
+_unknown
+_update_sharing
+_usbmuxd
+_uucp
+_warmd
+_webauthserver
+_windowserver
+_www
+_wwwproxy
+_xserverdocs
+daemon
+nobody
+root
+sarahsiblini
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % dscl . -read /Groups/admin GroupMembership
+GroupMembership: root sarahsiblini
+
+VI - 
+
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % last -1 $(whoami)
+sarahsiblini  ttys000                   Mon Nov  4 17:30   still logged in
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % uptime
+18:18  up 33 days,  3:56, 2 users, load averages: 2,51 3,08 3,50
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % sysctl -n machdep.cpu.brand_string
+Intel(R) Core(TM) i5-5257U CPU @ 2.70GHz
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % sw_vers
+ProductName:	macOS
+ProductVersion:	12.7.6
+BuildVersion:	21H1320
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % sw_vers
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % softwareupdate --history    
+Display Name                                       Version    Date                  
+------------                                       -------    ----                  
+Safari                                             16.6       17/08/2023 à 22:05:48
+Safari                                             17.1       26/11/2023 à 13:50:15
+macOS Monterey 12.7.1                              12.7.1     26/11/2023 à 13:50:40
+Safari                                             17.5       04/06/2024 à 02:34:57
+macOS Monterey 12.7.5                              12.7.5     04/06/2024 à 02:35:23
+Safari                                             17.6       02/09/2024 à 23:26:58
+macOS Monterey 12.7.6                              12.7.6     02/09/2024 à 23:27:21
+Command Line Tools for Xcode                       13.2       10/09/2024 à 09:00:03
+Command Line Tools for Xcode                       13.4       10/09/2024 à 09:00:03
+Command Line Tools for Xcode                       14.2       10/09/2024 à 09:00:03
+sarahsiblini@MacBook-Pro-de-Sarah-2 ~ % 
